@@ -1,0 +1,32 @@
+: q
+$ code .
+$ code .
+: Q
+: q!
+$ 1
+$ q
+$ q
+$ code .
+$ code .
+$ +
+$ node_script
+: set drawbox
+: set nopreview
+: set nopreview
+: set ratios 1
+: set info size:time
+: set drawbox
+: set nopreview false
+: set nopreview
+: set nopreview
+: set ratios 1
+: set ratios 2
+: set drawbox
+$ code .
+: Q
+$ nano .zshrc 
+$ code .
+$ vim .vimrc
+$ code .
+$ code .
+$ vim OpenModal.vue 
