@@ -1,0 +1,34 @@
+
+2024/12/03 (21:36:42) | ===> btop++ v.1.4.0
+2024/12/03 (21:36:42) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/03 (21:36:42) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/03 (21:40:33) | ===> btop++ v.1.4.0
+2024/12/03 (21:40:33) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/03 (21:40:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/03 (22:10:58) | ===> btop++ v.1.4.0
+2024/12/03 (22:10:58) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/03 (22:10:58) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/03 (22:13:41) | ===> btop++ v.1.4.0
+2024/12/03 (22:13:41) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/03 (22:13:41) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/03 (22:14:51) | ===> btop++ v.1.4.0
+2024/12/03 (22:14:51) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/03 (22:14:51) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/03 (22:15:37) | INFO: Logger set to INFO
+2024/12/03 (22:15:38) | INFO: Logger set to DEBUG
+2024/12/03 (22:15:39) | INFO: Logger set to DEBUG
+2024/12/03 (22:15:40) | INFO: Logger set to INFO
+2024/12/03 (22:15:40) | INFO: Logger set to DEBUG
+2024/12/03 (22:15:40) | INFO: Logger set to INFO
+
+2024/12/04 (11:29:37) | ===> btop++ v.1.4.0
+2024/12/04 (11:29:37) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/04 (11:29:37) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/04 (12:33:26) | ===> btop++ v.1.4.0
+2024/12/04 (12:33:26) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/04 (12:33:26) | WARNING: Intel GPU: Failed to initialize PMU
