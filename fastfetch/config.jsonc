@@ -4,14 +4,14 @@
         "source": "$HOME/.config/fastfetch/ascii.txt",
         "padding": {
             "top": 2,
-            "right": 6
+            "right": 2
         },
         "color": {
             "1": "cyan"
         }
     },
     "display": {
-        "separator": " "
+        "separator": " | "
     },
     "modules": [
         "break",
