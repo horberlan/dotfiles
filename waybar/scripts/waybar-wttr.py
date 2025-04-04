@@ -1,172 +1,113 @@
-#!/usr/bin/env python
-
-import json
+#!/usr/bin/env python3
 import requests
+import json
+from datetime import datetime, timedelta, UTC
 import sys
-from datetime import datetime
-from time import sleep
 
-location = "-6.8897849,-38.5570389"
+latitude = -6.8897849
+longitude = -38.5570389
 
-WEATHER_CODES = {
-    '113': '☀️',   # Clear
-    '116': '⛅',    # Partly cloudy
-    '119': '☁️',    # Cloudy
-    '122': '☁️',    # Overcast
-    '143': '🌫️',    # Fog
-    '176': '🌦️',    # Patchy rain
-    '179': '🌨️',    # Patchy snow
-    '182': '🌧️',    # Patchy sleet
-    '185': '🌧️',    # Patchy freezing drizzle
-    '200': '⛈️',     # Thundery outbreaks
-    '227': '🌨️',    # Blowing snow
-    '230': '❄️',     # Blizzard
-    '248': '🌫️',     # Fog
-    '260': '🌫️',     # Freezing fog
-    '263': '🌦️',     # Patchy light drizzle
-    '266': '🌦️',     # Light drizzle
-    '281': '🌧️',     # Freezing drizzle
-    '284': '🌧️',     # Heavy freezing drizzle
-    '293': '🌦️',     # Patchy light rain
-    '296': '🌦️',     # Light rain
-    '299': '🌧️',     # Moderate rain
-    '302': '🌧️',     # Heavy rain
-    '305': '🌧️',     # Heavy rain
-    '308': '🌧️',     # Heavy rain
-    '311': '🌧️',     # Light freezing rain
-    '314': '🌧️',     # Moderate/Heavy freezing rain
-    '317': '🌧️',     # Light sleet
-    '320': '🌨️',     # Moderate/Heavy sleet
-    '323': '🌨️',     # Patchy light snow
-    '326': '🌨️',     # Light snow
-    '329': '❄️',      # Patchy moderate snow
-    '332': '❄️',      # Moderate snow
-    '335': '❄️',      # Patchy heavy snow
-    '338': '❄️',      # Heavy snow
-    '350': '🌧️',      # Ice pellets
-    '353': '🌦️',      # Light rain shower
-    '356': '🌧️',      # Moderate/Heavy rain shower
-    '359': '🌧️',      # Torrential rain shower
-    '362': '🌨️',      # Light sleet showers
-    '365': '🌨️',      # Moderate/Heavy sleet showers
-    '368': '🌨️',      # Light snow showers
-    '371': '❄️',      # Moderate/Heavy snow showers
-    '374': '🌨️',      # Light showers of ice pellets
-    '377': '🌨️',      # Moderate/Heavy showers of ice pellets
-    '386': '⛈️',      # Patchy light rain with thunder
-    '389': '⛈️',      # Moderate/Heavy rain with thunder
-    '392': '⛈️',      # Patchy light snow with thunder
-    '395': '⛈️'       # Moderate/Heavy snow with thunder
-}
-
-def format_time(time_str):
-    """Convert API time format (like '300' or '1430') to 12h format"""
-    try:
-        time_obj = datetime.strptime(time_str.zfill(4), "%H%M")
-        return time_obj.strftime("%-I%p").lower()
-    except ValueError:
-        return time_str
+def get_temp_icon(temp):
+    if temp <= 18:
+        return "🥶"
+    elif temp < 20:
+        return "❄️"
+    elif temp < 27:
+        return "🌡️"
+    else:
+        return "🔥"
 
 def get_weather():
-    """Fetch and validate weather data with retries"""
-    url = "https://wttr.in/#{location}"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0",
-        "Accept": "application/json"
-    }
-    
-    for attempt in range(3):
-        try:
-            response = requests.get(
-                url,
-                params={"format": "j1", "lang": "en"},
-                headers=headers,
-                timeout=10
-            )
-            response.raise_for_status()
-            
-            weather = response.json()
-            
-            # Validate response structure
-            required_keys = ['current_condition', 'weather']
-            if not all(key in weather for key in required_keys):
-                raise ValueError("Invalid API response structure")
-                
-            return weather
-            
-        except (requests.RequestException, json.JSONDecodeError) as e:
-            if attempt == 2:
-                raise
-            sleep(2 ** attempt)
-    
-    raise Exception("Failed after 3 attempts")
-
-def build_tooltip(weather):
-    """Construct detailed tooltip text"""
-    current = weather['current_condition'][0]
-    tooltip = [
-        f"<b>{current['weatherDesc'][0]['value']} {current['temp_C']}°C</b>",
-        f"Feels like: {current['FeelsLikeC']}°C",
-        f"Wind: {current['windspeedKmph']} km/h ({current['winddir16Point']})",
-        f"Humidity: {current['humidity']}%",
-        f"Pressure: {current['pressure']} hPa"
-    ]
-    
-    for i, day in enumerate(weather['weather'][:2]):
-        date = datetime.strptime(day['date'], "%Y-%m-%d").strftime("%a %-d %b")
-        title = "Today" if i == 0 else "Tomorrow"
-        
-        tooltip.extend([
-            f"\n<b>{title} - {date}</b>",
-            f"⬆️ {day['maxtempC']}°C ⬇️ {day['mintempC']}°C",
-            f"🌅 {day['astronomy'][0]['sunrise']} 🌇 {day['astronomy'][0]['sunset']}"
-        ])
-        
-        for hour in day['hourly']:
-            if i == 0 and int(hour['time']) < datetime.now().hour - 1:
-                continue
-            tooltip.append(
-                f"{format_time(hour['time'])} "
-                f"{WEATHER_CODES.get(hour['weatherCode'], '?')} "
-                f"{hour['tempC']}°C "
-                f"({format_chances(hour)})"
-            )
-    
-    return "\n".join(tooltip)
-
-def format_chances(hour):
-    """Format precipitation chances with icons"""
-    chances = {
-        "chanceofrain": "🌧️",
-        "chanceofsnow": "❄️",
-        "chanceofsunshine": "☀️",
-        "chanceofthunder": "⚡"
-    }
-    return " ".join(
-        f"{emoji}{hour[key]}%"
-        for key, emoji in chances.items()
-        if int(hour.get(key, 0)) > 0
-    )
-
-def main():
-    data = {"text": "⚠️", "tooltip": "Weather data unavailable"}
-    
+    headers = {"User-Agent": "weather-script-example/1.0"}
+    url = f"https://api.met.no/weatherapi/locationforecast/2.0/complete?lat={latitude}&lon={longitude}"
     try:
-        weather = get_weather()
-        current = weather['current_condition'][0]
-        
-        data['text'] = (
-            f"{WEATHER_CODES.get(current['weatherCode'], '?')} "
-            f"{current['temp_C']}°C"
-        )
-        
-        data['tooltip'] = build_tooltip(weather)
-        
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        now = datetime.now(UTC)
+        timeseries = data['properties']['timeseries']
+        current = timeseries[0]['data']['instant']['details']
+        temp = current.get('air_temperature')
+        humidity = current.get('relative_humidity')
+        pressure = current.get('air_pressure_at_sea_level')
+        wind_speed = current.get('wind_speed')
+        wind_dir = current.get('wind_from_direction')
+        summary = f"{get_temp_icon(temp)} {round(temp)}°C"
+        tooltip_lines = [
+            f"Now - {now.strftime('%Y-%m-%d %H:%M UTC')}",
+            f"Temp: {temp}°C",
+            f"Humidity: {humidity}%",
+            f"Wind: {wind_speed} m/s ({wind_dir}°)",
+            f"Pressure: {pressure} hPa",
+            ""
+        ]
+        today = now.date()
+        tomorrow = today + timedelta(days=1)
+        min_today, max_today = extract_min_max(timeseries, today)
+        min_tomorrow, max_tomorrow = extract_min_max(timeseries, tomorrow)
+        tooltip_lines.extend([
+            f"Today",
+            f"Min: {min_today}°C  Max: {max_today}°C",
+            "",
+            f"Tomorrow",
+            f"Min: {min_tomorrow}°C  Max: {max_tomorrow}°C",
+            "",
+            f"Next hours:"
+        ])
+        for item in timeseries[1:]:
+            time = datetime.fromisoformat(item['time'].replace("Z", "+00:00")).astimezone(UTC)
+            if time > now + timedelta(hours=8):
+                break
+            if time < now:
+                continue
+            hour = time.strftime('%Hh')
+            instant = item['data'].get('instant', {}).get('details', {})
+            next_temp = instant.get('air_temperature', '?')
+            symbol = item['data'].get('next_1_hours', {}).get('summary', {}).get('symbol_code', '?')
+            emoji = icon_from_symbol(symbol)
+            tooltip_lines.append(f"{hour}: {emoji} {next_temp}°C")
+        result = {"text": summary, "tooltip": "\n".join(tooltip_lines)}
+        print(json.dumps(result))
     except Exception as e:
-        data['tooltip'] = f"Weather error: {str(e)}"
-        print(f"Weather module error: {e}", file=sys.stderr)
-    
-    print(json.dumps(data))
+        result = {"text": "⚠️", "tooltip": f"Weather error: {e}"}
+        print(json.dumps(result))
+        print(f"[Error] {e}", file=sys.stderr)
+
+def extract_min_max(timeseries, target_date):
+    temps = []
+    for item in timeseries:
+        time = datetime.fromisoformat(item['time'].replace("Z", "+00:00")).astimezone(UTC)
+        if time.date() != target_date:
+            continue
+        temp = item['data'].get('instant', {}).get('details', {}).get('air_temperature')
+        if temp is not None:
+            temps.append(temp)
+    return (min(temps), max(temps)) if temps else ("?", "?")
+
+def icon_from_symbol(symbol):
+    icons = {
+        'clearsky': '☀️',
+        'cloudy': '☁️',
+        'fair': '🌤️',
+        'fog': '🌫️',
+        'heavyrain': '🌧️',
+        'heavyrainandthunder': '⛈️',
+        'heavysnow': '❄️',
+        'heavysnowandthunder': '❄️⚡',
+        'lightrain': '🌦️',
+        'lightrainandthunder': '🌩️',
+        'lightsnow': '🌨️',
+        'partlycloudy': '⛅',
+        'rain': '🌧️',
+        'rainandthunder': '⛈️',
+        'snow': '🌨️',
+        'snowandthunder': '🌨️⚡',
+        'sleet': '🌨️🌧️',
+    }
+    for key in icons:
+        if symbol.startswith(key):
+            return icons[key]
+    return '❓'
 
 if __name__ == "__main__":
-    main()
+    get_weather()
