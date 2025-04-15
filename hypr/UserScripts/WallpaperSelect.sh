@@ -85,6 +85,7 @@ main() {
       break
     fi
   done
+# swww query || swww-daemon --format xrgb && swww img -o $focused_monitor ${RANDOMPICS} $SWWW_PARAMS
 
   if [[ $pic_index -ne -1 ]]; then
     swww img -o "$focused_monitor" "${PICS[$pic_index]}" $SWWW_PARAMS
