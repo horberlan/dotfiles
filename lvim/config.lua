@@ -1,13 +1,8 @@
--- Plugins
-
-
 lvim.colorscheme = "nightfox"
 
 lvim.builtin.lualine.options.theme = "dracula"
+lvim.transparent_window = false
 lvim.plugins = {
-
-  -- Colchetes coloridos (rainbow)
-
   { 'echasnovski/mini.nvim', version = '*' },
   { "EdenEast/nightfox.nvim" },
   {
@@ -70,16 +65,6 @@ lvim.plugins = {
       vim.keymap.set("n", "<Leader>ff", file, { silent = true })
     end,
   },
-
-  -- -- Tema Everforest
-  -- {
-  --   "sainnhe/everforest",
-  --   config = function()
-  --     vim.cmd("colorscheme everforest")
-  --   end,
-  --   lazy = false,
-  --   priority = 1000,
-  -- },
 
   -- Glow: renderizar markdown
   {
@@ -161,5 +146,47 @@ lvim.plugins = {
 
 }
 
+lvim.builtin.tabnine = { active = true }
 
+lvim.builtin.lualine.options = {
+  icons_enabled = true,
+  theme = 'nightfox',
+  component_separators = { left = '', right = '' },
+  section_separators = { left = '', right = '' },
+  disabled_filetypes = {
+    statusline = {},
+    winbar = {},
+  },
+  ignore_focus = {},
+  always_divide_middle = true,
+  globalstatus = false,
+  refresh = {
+    statusline = 1000,
+    tabline = 1000,
+    -- winbar = 1000,
+  }
+}
+
+local function animal()
+  local selection = { '🐶', '🐼', '🐸', '🦊', '🦁', '🐵', '🐮', '🐷', '🐨', '🗿' }
+  return selection[math.random(#selection)]
+end
+
+lvim.builtin.lualine.sections = {
+  lualine_a = { '', 'mode', 'selectioncount', 'searchcount' },
+  lualine_b = { 'branch', 'diff', 'diagnostics' },
+  lualine_c = { 'filename', 'filesize' },
+  lualine_x = { 'fileformat', 'filetype', 'encoding' },
+  lualine_y = { 'location', 'progress' },
+  lualine_z = { "os.date('%a - %d/%m/%y - %H:%M:%S')", { animal } }
+}
+
+lvim.builtin.lualine.inactive_sections = {
+  lualine_a = {},
+  lualine_b = {},
+  lualine_c = {},
+  lualine_x = {},
+  lualine_y = {},
+  lualine_z = {}
+}
 -- lvim.builtin.nvimtree.setup.open_on_setup_file = true
