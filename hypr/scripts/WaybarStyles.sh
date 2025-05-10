@@ -1,19 +1,25 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
-# Script for waybar styles
 
 set -euo pipefail
 IFS=$'\n\t'
 
-# Define directories
+# Define directories and files
 waybar_styles="$HOME/.config/waybar/style"
 waybar_style="$HOME/.config/waybar/style.css"
+waybar_config="$HOME/.config/waybar/config.jsonc"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 rofi_config="$HOME/.config/rofi/config-waybar-style.rasi"
 
 # Function to display menu options
 menu() {
     options=()
+    while IFS= read -r dir; do
+        if [ -d "$waybar_styles/$dir" ] && [ -f "$waybar_styles/$dir/style.css" ] && [ -f "$waybar_styles/$dir/config.jsonc" ]; then
+            options+=("$dir")
+        fi
+    done < <(find "$waybar_styles" -maxdepth 1 -type d -not -path "$waybar_styles" -exec basename {} \; | sort)
+    
+    # Include .css files in the root directory for backward compatibility
     while IFS= read -r file; do
         if [ -f "$waybar_styles/$file" ]; then
             options+=("$(basename "$file" .css)")
@@ -25,7 +31,14 @@ menu() {
 
 # Apply selected style
 apply_style() {
-    ln -sf "$waybar_styles/$1.css" "$waybar_style"
+    if [ -d "$waybar_styles/$1" ]; then
+        # Subdirectory with style.css and config.jsonc
+        ln -sf "$waybar_styles/$1/style.css" "$waybar_style"
+        ln -sf "$waybar_styles/$1/config.jsonc" "$waybar_config"
+    else
+        # Root-level .css file
+        ln -sf "$waybar_styles/$1.css" "$waybar_style"
+    fi
     "${SCRIPTSDIR}/Refresh.sh" &
 }
 
