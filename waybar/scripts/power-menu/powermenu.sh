@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
 
-# Current Theme
 dir="~/.config/waybar/scripts/power-menu/"
 theme='style'
 
-# CMDs
-uptime="`uptime -p | sed -e 's/up //g'`"
-host=`cat /etc/hostname`
+uptime="$(uptime -p | sed -e 's/up //g')"
+host=$(cat /etc/hostname)
 
-# Options
 shutdown=' Shutdown'
 reboot=' Reboot'
 lock=' Lock'
@@ -88,10 +85,8 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
+		if [[ -x '/usr/bin/mpvlock' ]]; then
+			mpvlock
 		elif [[ -x '/usr/bin/Hyprland' ]]; then
 		  swaylock	
 		fi

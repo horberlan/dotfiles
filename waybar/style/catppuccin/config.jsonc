@@ -1,0 +1,110 @@
+{
+	"layer": "top",
+	"margin-bottom": 3,
+	"margin-top": 4,
+	"modules-left": [
+		"custom/launcher",
+		"cpu",
+		"memory",
+		"network",
+		"custom/spotify",
+		"tray"
+	],
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+	"modules-right": [
+		"backlight",
+		"pulseaudio",
+		"clock",
+		"battery",
+		"custom/power"
+	],
+	"pulseaudio": {
+		"tooltip": true,
+		"scroll-step": 5,
+		"format": "{icon} {volume}%",
+		"format-muted": "{icon} {volume}%",
+		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"format-icons": {
+			"default": [
+				" ",
+				" ",
+				" "
+			]
+		}
+	},
+	"network": {
+		// "interface": "wlp2*",
+		"format-wifi": "",
+		"format-ethernet": "",
+		"tooltip-format": "{essid} ({signalStrength}%)",
+		"format-linked": "{ifname} (No IP) ",
+		"format-disconnected": "⚠",
+		"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	},
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval": 1,
+		"on-scroll-up": "light -A 5",
+		"on-scroll-down": "light -U 5"
+	},
+	"battery": {
+		"states": {
+			"good": 80,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon}  {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": " {capacity}%",
+		"format-alt": "{time} {icon}",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"tray": {
+		"icon-size": 18,
+		"spacing": 10
+	},
+	"clock": {
+		"format": " {:%R  %d/%m}"
+	},
+	"cpu": {
+		"interval": 15,
+		"format": " {}%",
+		"max-length": 10
+	},
+	"memory": {
+		"interval": 30,
+		"format": " {}%",
+		"max-length": 10
+	},
+	"custom/spotify": {
+		"interval": 1,
+		"return-type": "json",
+		"exec": "~/.config/waybar/scripts/spotify.sh",
+		"exec-if": "pgrep spotify",
+		"escape": true
+	},
+	"custom/launcher": {
+		"format": "󱘊 ",
+		"on-click": "rofi -show drun",
+		"on-click-right": "killall rofi"
+	},
+	"custom/power": {
+		"format": " ",
+		"on-click": "bash ~/.config/rofi/leave/leave.sh"
+	},
+	"hyrpland/workspaces": {
+		"format": "{icon}",
+		"on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+		"on-click": "activate"
+	}
+}
