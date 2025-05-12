@@ -1,0 +1,33 @@
+{
+    "output":"eDP-1",
+    "layer": "bottom",
+    "position": "bottom",
+    "margin": "0 270 4 270",
+    "fixed-center": true,
+    "reload_style_on_change": true,
+    "include": ["~/.config/waybar/style/purple/modules.jsonc"],
+    "modules-left": [
+      "hyprland/window",
+      "group/apps"
+
+       //   "custom/playerlabel",
+      
+    ],
+    
+    "modules-center": [
+      "group/info",
+      "hyprland/workspaces",
+      "group/utils"
+      
+    ],
+  
+    "modules-right": [
+      //"group/control-center",
+      "group/video",
+      "clock",
+      "group/power"
+    ]
+  }
+  
+  
+  // testW

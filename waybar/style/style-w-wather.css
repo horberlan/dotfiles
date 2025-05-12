@@ -1,52 +1,50 @@
 * {
-  font-family: JetBrains Mono Nerd Font;
-  font-size: 15px;
+    font-family: JetBrains Mono Nerd Font;
+    font-size: 15px;
 }
 
 @import "colors.css";
 
 window#waybar {
-  background-color: alpha (@base, 0.4);
-  color: @mantle;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  border-top: 8px transparent;
-  border-radius: 10px;
-  transition-duration: 0.5s;
-  margin: 16px 16px;
+    background-color: alpha(@base, 0.4);
+    color: @mantle;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-top: 8px transparent;
+    border-radius: 10px;
+    margin: 16px 16px;
 }
 
 window#waybar.hidden {
-  opacity: 0.2;
+    opacity: 0.2;
 }
 
 #workspaces button {
-  padding: 5px;
-  color: #464761;
-  margin-right: 5px;
+    padding: 5px;
+    color: #464761;
+    margin-right: 5px;
 }
 
 #workspaces button.active {
-  color: #9babcf;
+    color: #9babcf;
 }
 
 #workspaces button.focused {
-  color: #9babcf;
-  background: #eba0ac;
-  border-radius: 10px;
+    color: #9babcf;
+    background: #eba0ac;
+    border-radius: 10px;
 }
 
 #workspaces button.urgent {
-  color: #11111b;
-  background: #a6e3a1;
-  border-radius: 10px;
+    color: #11111b;
+    background: #a6e3a1;
+    border-radius: 10px;
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #9babcf;
-  border-color: #35bfa4;
-  border-radius: 10px;
+    background: #11111b;
+    color: #9babcf;
+    border-radius: 10px;
 }
 
 #custom-power_profile,
@@ -65,121 +63,121 @@ window#waybar.hidden {
 #tray,
 #custom-power-menu,
 #backlight {
-  background: alpha(@base, 0.5);
-  padding: 0px 10px;
+    background: alpha(@base, 0.5);
+    padding: 0px 10px;
 }
 
 #custom-launcher {
-	font-size: 1.5rem;
-	margin-top: 0px;
-	margin-left: 0px;
-	padding-left: 10px;
-	border-radius: 10px;
-	transition: none;
-	color: #35bfa4;
-	background: transparent;
-	text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-		1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    transition: none;
+    color: #35bfa4;
+    background: transparent;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+                 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
+
 #custom-wayves {
-	font-size: 1rem;
-	margin-left: 10px;
-	transition: none;
-	color: #9babcf;
+    font-size: 1rem;
+    margin-left: 10px;
+    transition: none;
+    color: #9babcf;
 }
+
 #custom-wayves_cat {
-  color: #eba0ac;
-  margin-right: 10px;
+    color: #eba0ac;
+    margin-right: 10px;
 }
 
 #memory {
-  color: #9babcf;
-  border-radius: 0px 10px 10px 0px;
-  margin: 5px 10px 5px 0px;
+    color: #9babcf;
+    border-radius: 0px 10px 10px 0px;
+    margin: 5px 10px 5px 0px;
 }
 
 #memory.critical {
-  color: #eba0ac;
+    color: #eba0ac;
 }
 
 #backlight {
-  color: #9babcf;
-  border-radius: 10px 0px 0px 10px;
-  margin: 5px 0px 5px 0px;
+    color: #9babcf;
+    border-radius: 10px 0px 0px 10px;
+    margin: 5px 0px 5px 0px;
 }
 
 #taskbar {
-  border-radius: 10px;
-  margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
 }
 
 #workspaces {
-  margin: 5px 5px 5px 5px;
-  border-radius: 10px;
+    margin: 5px;
+    border-radius: 10px;
 }
 
 #window {
-  border-radius: 10px;
-  margin: 5px 60px 5px 60px;
+    border-radius: 10px;
+    margin: 5px 60px;
 }
 
 #clock {
-  color: #9babcf;
-  border-radius: 10px 10px 10px 10px;
-  margin-left: 10px;
-  margin: 5px 10px 5px 5px;
+    color: #9babcf;
+    border-radius: 10px;
+    margin: 5px 10px 5px 5px;
 }
 
 #network {
-  color: #9babcf;
-  border-radius: 10px 0px 0px 10px;
-  margin: 5px 0px 5px 0px;
+    color: #9babcf;
+    border-radius: 10px 0px 0px 10px;
+    margin: 5px 0px;
 }
 
 #cpu {
-  color: #9babcf;
-  border-radius: 10px 0px 0px 10px;
-  margin: 5px 0px 5px 10px;
+    color: #9babcf;
+    border-radius: 10px 0px 0px 10px;
+    margin: 5px 0px 5px 10px;
 }
 
 #bluetooth {
-  color: #9babcf;
-  border-radius: 0px 10px 10px 0px;
-  margin: 5px 10px 5px 0px;
+    color: #9babcf;
+    border-radius: 0px 10px 10px 0px;
+    margin: 5px 10px 5px 0px;
 }
 
 #wireplumber {
-  color: #9babcf;
-  margin: 5px 0px 5px 0px;
+    color: #9babcf;
+    margin: 5px 0px;
 }
 
 #battery {
-  color: #9babcf;
-  margin: 5px 0px 5px 0px;
-  border-radius: 0px 10px 10px 0px;
+    color: #9babcf;
+    margin: 5px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 #custom-local_temperature {
-  margin: 5px 10px 5px 10px;
-  border-right: 0px;
-  margin-left: 0px;
-  color: #9babcf;
+    margin: 5px 10px;
+    border-right: 0px;
+    margin-left: 0px;
+    color: #9babcf;
 }
 
 #custom-power-menu {
-  margin: 5px 5px 5px 10px;
-  border-radius: 10px;
-  color: #35bfa4;
+    margin: 5px 5px 5px 10px;
+    border-radius: 10px;
 }
 
 #tray {
-  margin: 5px 0px 5px 0px;
-  border-radius: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
 }
 
 #idle_inhibitor {
-  color: #9babcf;
-  border-left: 0px;
-  border-right: 0px;
-  margin: 5px 0px 5px 0px;
+    color: #9babcf;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 5px 0px;
 }
