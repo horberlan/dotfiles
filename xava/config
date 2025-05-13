@@ -4,7 +4,7 @@
 [general]
 
 # Accepts only non-negative values.
-framerate = 40
+framerate = 60
 
 # Keep the application in sync with the monitor to prevent tearing
 # It's generally recommended to keep it on, as different framerates may lead to
@@ -13,20 +13,20 @@ framerate = 40
 # 0 = off
 # 1 up to screen refresh rate = visualizer runs at refresh rate divided by this
 # number
-vsync = 1
+;vsync = 1
 
 # The number of bars. 0 sets it to auto (put as many as you can).
 # Bars' width and space between bars in number of pixels on screen.
-bars = 1000
-bar_width = 3
+bars = 1460
+bar_width = 4
 bar_spacing = 1
 
 
 [window]
 
 # Window width and height (in pixels)
-width = 1980
-height = 200
+width = 1920
+height = 150
 
 # Fullscreen toggle
 fullscreen = false
@@ -123,7 +123,7 @@ reload_on_display_configure = true
 #
 # Also in XDG, XAVA may crash when resizing the window due to buffer
 # related issues (If this bothers you, an issue or PR would be appreciated)
-; background_layer = true
+background_layer = true
 
 # When background_layer is enabled, this options offers you to select
 # which monitor XAVA should occupy (examples: eDP-1, HDMI-A-1...)
@@ -149,11 +149,11 @@ reload_on_display_configure = true
 # as in Minecraft shaderpacks while using Optifine. Basically
 # it's the same idea. Use "none" to disable, this does break
 # "resolution_scale" so beware.
-; post_shader = default
+post_shader = none
 
 # Scale the resolution of the rendered visualizer by a floating-point factor
 # Works similarly to "render resolution scalers" in modern AAA game engines
-; resolution_scale = 1.0
+resolution_scale = 1
 
 
 [cairo]
@@ -205,14 +205,14 @@ reload_on_display_configure = true
 #
 # You can also specify 'list' as the source to portaudio to list all available
 # audio devices
-; method = pulseaudio
-; source = auto
+method = pulseaudio
+source = auto
 
 ; method = portaudio
 ; source = auto
 
-; method = alsa
-; source = hw:Loopback,1
+;method = alsa
+;source = hw:Loopback,1
 
 ; method = sndio
 ; source =
@@ -230,14 +230,14 @@ reload_on_display_configure = true
 ; source = default
 
 # Adjusts the input buffer size (in samples, calculated by 2^input_size)
-; size = 12
+size = 12
 
 # Adjust the sample rate of the input audio (if possible)
-; rate = 44100
+rate = 44100
 
 # Adjust the capture packets of an input (if possible, in samples)
 # A lower value means less latency, although it comes with a high CPU cost
-latency = 128
+;latency = 128
 
 
 [output]
@@ -270,7 +270,7 @@ latency = 128
 #  Xrdb
 #  - Under Windows 'default' uses your system accent color
 #  - And on any other 'default' is just black and cyan (the default colorscheme)
- background = default
+#  background = default
  foreground = '#000000'
 
 # This adjusts the opacity of the bars (must have transparency for it to work)
@@ -283,9 +283,10 @@ latency = 128
 # defined in hex or remain commented out.
 # To enable gradients, just change gradient_count to the number of colors you
 # have specified (0 = disabled)
- gradient_count = 2
- gradient_color_1 = '#008080'
- gradient_color_2 = '#242424'
+ gradient_count = 3
+ gradient_color_1 = '#1C2B3A'
+ gradient_color_2 = '#43D9AD'
+ gradient_color_3 = '#011627'
 
 
 [filter]
@@ -298,7 +299,7 @@ latency = 128
 # Lower and higher cutoff frequencies for lowest and highest bars
 # the bandwidth of the visualizer.
 # XAVA will automatically increase the higher cutoff if a too low band is specified.
-lower_cutoff_freq = 26
+;lower_cutoff_freq = 26
 ; higher_cutoff_freq = 15000
 
 # Percentage value for integral smoothing. Takes values from 0 - 100.
@@ -307,8 +308,8 @@ integral = 85
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves".
 # Set to 0 to disable (default).
-monstercat = 10
-waves = 10
+monstercat = 50
+waves = 50
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.
 # Accepts only non-negative values. 50 means half gravity, 200 means double.
@@ -316,7 +317,7 @@ waves = 10
 gravity = 100
 
 # In bar height, bars that would have been lower that this (in pixels) will not be drawn.
-ignore = 1
+ignore = 4
 
 # Adjust the logarithmic scale of the frequency band (the lower the value,
 # the less difference between bars in frequency)
@@ -327,7 +328,7 @@ log = 1.55
 
 # Balances the eq towards higher or lower frequencies
 # lower value->lower frequencies, higher value->higher frequencies
-; eq_balance = 0.67
+eq_balance = 0.67
 
 # Adjusts the FFT buffer size (calculated by 2^fft_size)
 ; fft_size = 14
@@ -341,7 +342,7 @@ log = 1.55
 
 # Manual sensitivity in %. Autosens must be turned off for this to take effect.
 # 200.0 means double height and so on. Accepts only non-negative values.
-; sensitivity = 100.0
+; sensitivity = 200.0
 
 
 [eq]
