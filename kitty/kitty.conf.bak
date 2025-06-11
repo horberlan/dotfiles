@@ -1,7 +1,3 @@
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
-
-# wallust-colors
-#include kitty-colors.conf 
 
 font_family Fira Code SemiBold
 font_size 16.0
@@ -21,13 +17,13 @@ wheel_scroll_min_lines 1
 enable_audio_bell no
 
 window_padding_width 4
-# selection_foreground none
-# selection_background none
-# foreground #dddddd
-# background #000000
-# cursor #dddddd
+
+# include current-theme.conf 
+# include Cyberpunk Neon.conf 
+map F12 kitten kitty_grab/grab.py
+
 
 # BEGIN_KITTY_THEME
-# Nightfox
+# Solarized Dark Higher Contrast
 include current-theme.conf
 # END_KITTY_THEME
