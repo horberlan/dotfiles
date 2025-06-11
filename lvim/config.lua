@@ -3,7 +3,8 @@ lvim.colorscheme = "nightfox"
 lvim.builtin.lualine.options.theme = "dracula"
 lvim.transparent_window = false
 lvim.plugins = {
-  { 'echasnovski/mini.nvim', version = '*' },
+  { 'echasnovski/mini.nvim',      version = '*' },
+  { "norcalli/nvim-colorizer.lua" },
   { "EdenEast/nightfox.nvim" },
   {
     "kevinhwang91/nvim-bqf",
@@ -152,7 +153,7 @@ lvim.builtin.lualine.options = {
   icons_enabled = true,
   theme = 'nightfox',
   component_separators = { left = '', right = '' },
-  section_separators = { left = '', right = '' },
+  section_separators = { left = '', right = '' },
   disabled_filetypes = {
     statusline = {},
     winbar = {},
@@ -189,4 +190,12 @@ lvim.builtin.lualine.inactive_sections = {
   lualine_y = {},
   lualine_z = {}
 }
+require 'colorizer'.setup()
+
+require 'colorizer'.setup({
+  css = { rgb_fn = true },
+  'javascript',
+  html = { mode = 'background' },
+}, { mode = 'background' })
+
 -- lvim.builtin.nvimtree.setup.open_on_setup_file = true
