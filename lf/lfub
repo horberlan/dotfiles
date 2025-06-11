@@ -17,7 +17,7 @@ cleanup() {
 	# Example:
 	# gpg -d  # ← Forgot to type $f for decrypting a file
 	# Ctrl-C  # ← Back to lf, previews are stuck
-	rm "$FIFO_UEBERZUG"
+	rm "$LF_FIFO_UEBERZUG"
 }
 
 main() {
@@ -26,9 +26,9 @@ main() {
 	else
 		[ -d "${XDG_CACHE_HOME}/lf" ] || mkdir -p "${XDG_CACHE_HOME}/lf"
 		export FIFO_UEBERZUG="${XDG_CACHE_HOME}/lf/ueberzug-$$"
-		mkfifo "$FIFO_UEBERZUG"
-		ueberzug layer -s < "$FIFO_UEBERZUG" -p json &
-		exec 3> "$FIFO_UEBERZUG"
+		mkfifo "$LF_FIFO_UEBERZUG"
+		ueberzug layer -s < "$LF_FIFO_UEBERZUG" -p json &
+		exec 3> "$LF_FIFO_UEBERZUG"
 		trap cleanup HUP INT QUIT TERM PWR EXIT
 		lf "$@" 3>&-
 	fi

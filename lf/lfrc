@@ -23,16 +23,15 @@ set period 1
 #set number
 set hidden!
 set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
-set cleaner '~/.config/lf/cleaner'
-set previewer '~/.config/lf/previewer'
-set promptfmt "
-\033[48;2;35;38;39;38;2;28;220;156m  
-\033[38;2;35;38;39;48;2;202;31;31m
-\033[38;2;202;31;31;48;2;40;47;62m
-\033[38;2;255;255;255m %w 
-\033[38;2;40;47;62;48;2;58;67;89m
-\033[38;2;255;255;255m %f 
-\033[;38;2;58;67;89;49m\033[m"
+
+# set promptfmt "
+# \033[48;2;35;38;39;38;2;28;220;156m  
+# \033[38;2;35;38;39;48;2;202;31;31m
+# \033[38;2;202;31;31;48;2;40;47;62m
+# \033[38;2;255;255;255m %w 
+# \033[38;2;40;47;62;48;2;58;67;89m
+# \033[38;2;255;255;255m %f 
+# \033[;38;2;58;67;89;49m\033[m"
 set incsearch
 set incfilter
 #set globsearch on
@@ -371,3 +370,7 @@ map cb &fondo-awesome $f
 
 # Source Bookmarks
 #source "~/.config/lf/shortcutrc"
+
+set previewer ~/.config/lf/previewer
+set cleaner ~/.config/lf/cleaner
+set vidthumb ~/.config/lf/vidthumb

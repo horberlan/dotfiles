@@ -72,6 +72,7 @@ case "$file" in
     convert "$file" "$thumbnail"
     preview "$thumbnail" "$@"
     ;;
+    
 *)
     cat "$file"
     ;;

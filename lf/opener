@@ -1,242 +1,228 @@
-# Opener for lf
+#!/usr/bin/env bash
 
-# En general, deberías delegar la apertura de ficheros a tu abridor de
-# recursos (e.g. xdg-open, mimeo), recomiendo ponerlo en la variable de
-# entorno $OPENER y luego configurar sus reglas de asociaciones entre tipos
-# MIME y lanzadores .desktop (e.g. ~/.config/applications/mimeapps.list)
-# Sin embargo, acá se puede programar comportamiento más avanzado basado
-# en más características de los ficheros y/o específicamente para lf
-# Tipos MIME IANA oficiales: https://www.iana.org/assignments/media-types/media-types.xhtml
+# File opener for lf file manager
 
-cmd open ${{
+# Function to launch applications
+launch_app() {
+    setsid -f "$@" >/dev/null 2>&1 ||
+    { nohup "$@" >/dev/null 2>&1 & } ||
+    (exec "$@" >/dev/null 2>&1 &)
+}
 
-	# Demonizador de comandos, en orden de preferencia
-	dem() {
-		{ setsid -f "$@" >/dev/null 2>&1& } \
-			|| ({ nohup "$@" >/dev/null 2>&1& } &) \
-			|| (exec "$@" >/dev/null 2>&1&)
-	}
+# Function to get MIME type
+get_mime_type() {
+    exiftool -s3 -MIMEType "$1" 2>/dev/null || file --dereference -b --mime-type -- "$1" 2>/dev/null
+}
 
-	real_f="$(readlink -f $f || realpath $f)" \
+# Function to open files
+open_file() {
+    local real_f mime_type
+    real_f=$(readlink -f "$1" || realpath "$1")
+    mime_type=$(get_mime_type "$real_f")
+    
+    case "$mime_type" in
+        application/pdf|application/postscript|image/vnd.djvu|application/epub*)
+            launch_app "${READER:-zathura}" "$1"
+        ;;
+        text/html)
+            case "${1##*.}" in
+                xls) launch_app localc "$1" ;;
+                *) "${EDITOR:-nvim}" "$1" ;;
+            esac
+        ;;
+        text/markdown)
+            case "${1##*.}" in
+                md|markdown)
+                    if command -v presenterm &> /dev/null; then
+                        presenterm "$1"
+                    else
+                        "${EDITOR:-nvim}" "$1"
+                    fi
+                ;;
+                *)
+                    "${EDITOR:-nvim}" "$1"
+                ;;
+            esac
+        ;;
+        text/troff)
+            case "${1##*.}" in
+                [0-9]|[01]p|[23]*) man "$1" ;;
+                *) "${EDITOR:-nvim}" "$1" ;;
+            esac
+        ;;
+        text/*|application/json|application/javascript|application/pgp-encrypted|inode/x-empty|application/octet-stream|application/x-gettext-translation)
+            "${EDITOR:-nvim}" "$1"
+        ;;
+        image/x-*)
+            launch_app "${IMAGE_EDITOR:-gimp}" "$1"
+        ;;
+        image/*)
+            if [[ "$(tty)" == /dev/tty* ]]; then
+                "${MPV:-mpv}" --keep-open "$1"
+            else
+                launch_app "${IMAGE_VIEWER:-vimiv}" "$1"
+            fi
+        ;;
+        audio/*)
+            if [[ "$(tty)" == /dev/tty* ]]; then
+                "${AUDIO_PLAYER:-${MPV:-mpv}}" --audio-display=no "$1"
+            else
+                launch_app "${TERMINAL:-alacritty}" -e "${AUDIO_PLAYER:-${MPV:-mpv}}" --audio-display=no "$1"
+            fi
+        ;;
+        video/*)
+            if [[ "$(tty)" == /dev/tty* ]]; then
+                "${VIDEO_PLAYER:-${MPV:-mpv}}" "$1"
+            else
+                launch_app "${VIDEO_PLAYER:-${MPV:-mpv}}" "$1"
+            fi
+        ;;
+        application/vnd.sqlite3)
+            sqlite3 "$1"
+        ;;
+        application/zip)
+            case "${1##*.}" in
+                kra) launch_app krita "$1" ;;
+                *) "${OPENER:-xdg-open}" "$1" ;;
+            esac
+        ;;
+        *)
+            handle_other_files "$1"
+        ;;
+    esac
+}
 
-	mime_type="$(\
-		exiftool -s3 -MIMEType "$real_f" 2>/dev/null \
-			|| file --dereference -b --mime-type -- "$real_f" 2>/dev/null
-	)"
+# Function to handle other file types
+handle_other_files() {
+    case "$1" in
+        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2|*.tar.gz|*.tgz|*.tar.lzma|*.tar.xz|*.txz|*.zip|*.rar|*.iso)
+            mount_archive "$1"
+        ;;
+        *)
+            "${OPENER:-xdg-open}" "$1"
+        ;;
+    esac
+}
 
-	case "$mime_type" in
-	(application/pdf | application/postscript | image/vnd.djvu |  application/epub*)
-		dem "${READER:-zathura}" $fx
-	;;
-	(text/html)
-		case "${f##*.}" in
-		(xls) dem localc $f ;;
-		(*) "${EDITOR:-nvim}" $fx
-		esac
-	;;
-	(text/troff)
-		case "${f##*.}" in
-		([0-9] | [01]p | [23]*) man $fx ;;
-		(*) "${EDITOR:-nvim}" $fx
-		esac
-	;;
-	( text/* | application/json | application/javascript | \
-	application/pgp-encrypted | inode/x-empty | application/octet-stream | \
-	application/x-gettext-translation )
-		"${EDITOR:-nvim}" $fx
-	;;
-	(image/x-*)
-		dem "${IMAGE_EDITOR:-gimp}" $fx
-	;;
-	(image/* )
-		case "$(tty)" in
-		("/dev/tty"*) # En tty imágenes pueden ser mostradas con mpv
-			"${MPV:-mpv}" --keep-open $fx
-		;;
-		(*) dem "${IMAGE_VIEWER:-vimiv}" $fx
-		esac
-	;;
-	(audio/*)
-		case "$(tty)" in
-		("/dev/tty"*) # No demonizar en tty
-			"${AUDIO_PLAYER:-"${MPV:-mpv}"}" --audio-display=no $fx
-		;;
-		(*) dem "${TERMINAL:-alacritty}" -e "${AUDIO_PLAYER:-"${MPV:-mpv}"}" --audio-display=no $fx
-		esac
-	;;
-	(video/*)
-		case "$(tty)" in
-		("/dev/tty"*) # No demonizar en tty
-			"${VIDEO_PLAYER:-"${MPV:-mpv}"}" $fx
-		;;
-		# TODO: handle video/webm like previewer
-		(*) dem "${VIDEO_PLAYER:-"${MPV:-mpv}"}" $fx
-		esac
-	;;
-	(application/vnd.sqlite3)
-		sqlite3 $fx
-	;;
-#		text/xml)
-#			;;
-	(application/zip)
-		case "${f##*.}" in
-		(kra) dem krita $f ;;
-		(*)
-			for f in $fx; do
-				"${OPENER:-xdg-open}" $f
-			done
-		esac
-	;;
-	(*)
-		case "$f" in
-		# TODO: redo this with mime types, not extensions
-		( *.tar.bz | *.tar.bz2 | *.tbz | \
-		*.tbz2 | *.tar.gz | *.tgz | *.tar.lzma | \
-		*.tar.xz | *.txz | *.zip | *.rar | *.iso)
-			mntdir="$f-archivemount"
-			if ! [ -d "$mntdir" ]; then
-				mkdir -- "$mntdir"
-				archivemount "$f" "$mntdir"
-				printf -- "%s\n" "$mntdir" >> "/tmp/__lf_archivemount_$id"
-			fi
-			lf -remote "send $id cd '$mntdir'"
-			lf -remote "send $id reload"
-		;;
-		esac
+# Function to mount archives
+mount_archive() {
+    local mntdir="$1-archivemount"
+    if [[ ! -d "$mntdir" ]]; then
+        mkdir -- "$mntdir"
+        archivemount "$1" "$mntdir"
+        printf "%s\n" "$mntdir" >> "/tmp/__lf_archivemount_$id"
+    fi
+    lf -remote "send $id cd '$mntdir'"
+    lf -remote "send $id reload"
+}
 
-		# Delegate opening to resource opener
+# Main function to open files
+open() {
+    for f in "$@"; do
+        open_file "$f"
+    done
+}
 
-		#pwhich() {
-		#	hash "$1" >/dev/null 2>&1 && command -v -- "$1"
-		#}
-		#[ "$OPENER" ] || OPENER=$(pwhich xdg-open)
-		for f in $fx; do
-			dem "${OPENER:-xdg-open}" $f
-			#"${OPENER:-"${EDITOR:-nvim}"}" $f
-			# ${OPENER:-"xdg-open"} $f || "${EDITOR:-"nvim"}" $f
-		done
-		;;
-	esac
-}}
+# Function to open files with a specific application
+openwith() {
+    local real_f mime_type app
+    real_f=$(readlink -f "$1" || realpath "$1")
+    mime_type=$(get_mime_type "$real_f")
+    
+    app=$(select_app "$mime_type")
+    open_with_app "$app" "$@"
+}
 
- # Bug: In my AwesomeWM some JPGs or webm don't show the window until is tiled
+# Function to select an application
+select_app() {
+    local mime_type="$1"
+    case "$mime_type" in
+        text/*|application/json|application/javascript|application/pgp-encrypted|inode/x-empty|application/octet-stream)
+            menu_select <<-EOF
+                $EDITOR
+                $EDITOR (new terminal)
+                nano
+                nano (new terminal)
+EOF
+        ;;
+        image/svg+xml|image/png|image/jpeg|image/gif)
+            menu_select <<-EOF
+                vimiv
+                gimp
+                mpv
+                krita
+                inkscape
+EOF
+        ;;
+        image/x-*)
+            menu_select <<-EOF
+                gimp
+                vimiv
+                mpv
+EOF
+        ;;
+        audio/*)
+            menu_select <<-EOF
+                mpv (force terminal)
+                mpv (background)
+                mpv (background, only audio)
+                mpv (foreground)
+                mpv (foreground, only audio)
+                mpv (force window)
+EOF
+        ;;
+        video/*)
+            menu_select <<-EOF
+                mpv
+                mpv (background, only audio)
+                mpv (foreground, only audio)
+                kdenlive
+EOF
+        ;;
+    esac
+}
 
-cmd openwith ${{
+# Function to open a file with a specific application
+open_with_app() {
+    local app="$1"
+    shift
+    case "$app" in
+        1) "${EDITOR:-nvim}" "$@" ;;
+        2) launch_app "${TERMINAL:-alacritty}" -e zsh -i -c "$EDITOR \"\$@\"" -- "$@" ;;
+        3) nano "$@" ;;
+        4) launch_app "${TERMINAL:-alacritty}" -e nano "$@" ;;
+        5) launch_app vimiv "$@" ;;
+        6) launch_app gimp "$@" ;;
+        7)
+            if [[ "$(tty)" == /dev/tty* ]]; then
+                "${MPV:-mpv}" --keep-open=yes "$@"
+            else
+                launch_app "${MPV:-mpv}" --keep-open=yes "$@"
+            fi
+        ;;
+        8) launch_app krita "$@" ;;
+        9) launch_app inkscape "$@" ;;
+        10) launch_app "${TERMINAL:-alacritty}" -e "$MPV" --audio-display=no "$@" ;;
+        11) launch_app "${MPV:-mpv}" "$@" ;;
+        12) launch_app "${MPV:-mpv}" --audio-display=no "$@" ;;
+        13) "${MPV:-mpv}" "$@" ;;
+        14)
+            echo
+            "${MPV:-mpv}" --audio-display=no "$@"
+        ;;
+        15) launch_app "${MPV:-mpv}" --force-window "$@" ;;
+        16) launch_app "${MPV:-mpv}" --video=no --audio-display=no "$@" ;;
+        17)
+            echo
+            "${MPV:-mpv}" --video=no --audio-display=no "$@"
+        ;;
+        18) launch_app "${VIDEO_EDITOR:-kdenlive}" "$@" ;;
+    esac
+}
 
-	dem() {
-		{ setsid -f "$@" >/dev/null 2>&1& } \
-			|| ({ nohup "$@" >/dev/null 2>&1& } &) \
-			|| (exec "$@" >/dev/null 2>&1&)
-	}
+# Function to display menu and select an option
+menu_select() {
+    nl -nln | fzf --with-nth 2.. | cut -d' ' -f1
+}
 
-	real_f="$(readlink -f $f || realpath $f)" \
-	mime_type="$(\
-		exiftool -s3 -MIMEType "$real_f" \
-			|| file --dereference -b --mime-type -- "$real_f"
-	)"
-
-	menu_select() {
-		nl -nln | fzf --with-nth 2.. | cut -d' ' -f1
-	}
-
-	# TODO: hacer que se puedan abrir con múltiples a la vez (fzf +m)
-	case "$mime_type" in
-	( text/* | application/json | application/javascript | \
-	application/pgp-encrypted | inode/x-empty | application/octet-stream )
-		app=$(menu_select <<-\EOF
-		$EDITOR
-		$EDITOR (new terminal)
-		nano
-		nano (new terminal)
-		EOF
-		)
-		case "$app" in
-		(1) "${EDITOR:-nvim}" $fx ;;
-		(2) dem "${TERMINAL:-alacritty}" -e "$EDITOR" $fx ;;
-		(3) nano $fx ;;
-		(4) dem "${TERMINAL:-alacritty}" -e nano $fx ;;
-		esac
-	;;
-
-	(image/svg+xml | image/png | image/jpeg | image/gif )
-		app=$(menu_select <<-\EOF
-		vimiv
-		gimp
-		mpv
-		krita
-		inkscape
-		EOF
-		)
-		case "$app" in
-		(1) dem vimiv $fx ;;
-		(2) dem gimp $fx ;;
-		(3)
-			case "$(tty)" in
-			# Demonizing on tty makes it impossible to quit
-			("/dev/tty"*) "${MPV:-mpv}" --keep-open=yes $fx ;;
-			(*) dem "${MPV:-mpv}" --keep-open=yes $fx ;;
-			esac
-		;;
-		(4) dem krita $fx ;;
-		(5) dem inkscape $fx ;;
-		esac
-	;;
-
-	(image/x-*)
-		app=$(menu_select <<-\EOF
-		gimp
-		vimiv
-		mpv
-		EOF
-		)
-		case "$app" in
-		(1) dem gimp $fx ;;
-		(2) dem vimiv $fx ;;
-		(3)
-			case "$(tty)" in
-			# Demonizing on tty makes it impossible to quit
-			("/dev/tty"*) "${MPV:-mpv}" --keep-open=yes $fx ;;
-			(*) dem "${MPV:-mpv}" --keep-open=yes $fx ;;
-			esac
-			;;
-		esac
-	;;
-
-	(audio/*)
-		app=$(menu_select <<-\EOF
-		mpv (force terminal)
-		mpv (background)
-		mpv (background, only audio)
-		mpv (foreground)
-		mpv (foreground, only audio)
-		mpv (force window)
-		EOF
-		)
-		case "$app" in
-		(1) dem "${TERMINAL:-alacritty}" -e "$MPV" --audio-display=no $fx ;;
-		(2) dem "${MPV:-mpv}" $fx ;;
-		(3) dem "${MPV:-mpv}" --audio-display=no $fx ;;
-		(4) "${MPV:-mpv}" $fx ;;
-		(5) echo; "${MPV:-mpv}" --audio-display=no $fx ;;
-		(6) dem "${MPV:-mpv}" --force-window $fx ;;
-		esac
-	;;
-
-	(video/*)
-		app=$(menu_select <<-\EOF
-		mpv
-		mpv (background, only audio)
-		mpv (foreground, only audio)
-		kdenlive
-		EOF
-		)
-		case "$app" in
-		(1) dem "${MPV:-mpv}" $fx ;;
-		(2) dem "${MPV:-mpv}" --video=no --audio-display=no $fx ;;
-		(3) echo; "${MPV:-mpv}" --video=no --audio-display=no $fx ;;
-		(4) dem "${VIDEO_EDITOR:-kdenlive}" $fx ;;
-		esac
-	esac
-}}
-
-# vim: ft=lf
+# vim: ft=sh
