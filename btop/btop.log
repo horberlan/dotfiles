@@ -32,3 +32,1729 @@
 2024/12/04 (12:33:26) | ===> btop++ v.1.4.0
 2024/12/04 (12:33:26) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
 2024/12/04 (12:33:26) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/04 (20:26:27) | ===> btop++ v.1.4.0
+2024/12/04 (20:26:27) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/04 (20:26:27) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/04 (20:27:05) | ===> btop++ v.1.4.0
+2024/12/04 (20:27:05) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/04 (20:27:05) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/05 (15:36:59) | ===> btop++ v.1.4.0
+2024/12/05 (15:36:59) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/05 (15:36:59) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/05 (16:45:17) | ===> btop++ v.1.4.0
+2024/12/05 (16:45:17) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/05 (16:45:17) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/07 (20:01:13) | ===> btop++ v.1.4.0
+2024/12/07 (20:01:13) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/07 (20:01:13) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/08 (14:09:37) | ===> btop++ v.1.4.0
+2024/12/08 (14:09:37) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/08 (14:09:37) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/08 (14:29:29) | ===> btop++ v.1.4.0
+2024/12/08 (14:29:29) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/08 (14:29:29) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/09 (00:49:39) | ===> btop++ v.1.4.0
+2024/12/09 (00:49:39) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/09 (00:49:51) | ===> btop++ v.1.4.0
+2024/12/09 (00:49:51) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/09 (00:50:43) | ===> btop++ v.1.4.0
+2024/12/09 (00:50:43) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/09 (00:51:40) | ===> btop++ v.1.4.0
+2024/12/09 (00:51:40) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/09 (16:14:29) | ===> btop++ v.1.4.0
+2024/12/09 (16:14:29) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/10 (20:06:02) | ===> btop++ v.1.4.0
+2024/12/10 (20:06:02) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/10 (20:06:02) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/11 (21:33:04) | ===> btop++ v.1.4.0
+2024/12/11 (21:33:04) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/11 (21:33:04) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/12 (22:30:09) | ===> btop++ v.1.4.0
+2024/12/12 (22:30:09) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+2024/12/12 (22:30:09) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/16 (16:07:07) | ===> btop++ v.1.4.0
+2024/12/16 (16:07:07) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/16 (17:25:58) | ===> btop++ v.1.4.0
+2024/12/16 (17:25:58) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/16 (17:27:42) | INFO: Logger set to INFO
+2024/12/16 (17:31:05) | INFO: Quitting! Runtime: 00:05:07
+
+2024/12/17 (15:45:54) | ===> btop++ v.1.4.0
+2024/12/17 (15:45:54) | INFO: Logger set to INFO
+2024/12/17 (15:45:54) | INFO: Running on /dev/pts/0
+2024/12/17 (15:45:54) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/17 (15:45:54) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/17 (15:46:07) | INFO: Quitting! Runtime: 00:00:13
+
+2024/12/18 (17:16:52) | ===> btop++ v.1.4.0
+2024/12/18 (17:16:52) | INFO: Logger set to INFO
+2024/12/18 (17:16:52) | INFO: Running on /dev/pts/0
+2024/12/18 (17:16:52) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/18 (17:16:52) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/18 (17:17:15) | INFO: Quitting! Runtime: 00:00:23
+
+2024/12/20 (13:16:09) | ===> btop++ v.1.4.0
+2024/12/20 (13:16:09) | INFO: Logger set to INFO
+2024/12/20 (13:16:09) | INFO: Running on /dev/pts/1
+2024/12/20 (13:16:09) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/20 (13:16:09) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/20 (14:21:00) | INFO: Quitting! Runtime: 01:04:51
+
+2024/12/20 (14:21:03) | ===> btop++ v.1.4.0
+2024/12/20 (14:21:03) | INFO: Logger set to INFO
+2024/12/20 (14:21:03) | INFO: Running on /dev/pts/1
+2024/12/20 (14:21:04) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/20 (14:21:04) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/20 (14:21:28) | INFO: Quitting! Runtime: 00:00:25
+
+2024/12/20 (14:21:33) | ===> btop++ v.1.4.0
+2024/12/20 (14:21:33) | INFO: Logger set to INFO
+2024/12/20 (14:21:33) | INFO: Running on /dev/pts/1
+2024/12/20 (14:21:33) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/20 (14:21:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/12/20 (21:34:27) | ===> btop++ v.1.4.0
+2024/12/20 (21:34:27) | INFO: Logger set to INFO
+2024/12/20 (21:34:27) | INFO: Running on /dev/pts/4
+2024/12/20 (21:34:27) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/20 (21:34:27) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/21 (06:18:35) | INFO: Quitting! Runtime: 08:44:08
+
+2024/12/23 (07:55:45) | ===> btop++ v.1.4.0
+2024/12/23 (07:55:45) | INFO: Logger set to INFO
+2024/12/23 (07:55:45) | INFO: Running on /dev/pts/3
+2024/12/23 (07:55:45) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/23 (07:55:45) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/23 (07:56:09) | INFO: Quitting! Runtime: 00:00:24
+
+2024/12/23 (08:15:59) | ===> btop++ v.1.4.0
+2024/12/23 (08:15:59) | INFO: Logger set to INFO
+2024/12/23 (08:15:59) | INFO: Running on /dev/pts/3
+2024/12/23 (08:15:59) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/23 (08:15:59) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/23 (09:52:14) | INFO: Quitting! Runtime: 01:36:15
+
+2024/12/26 (15:29:22) | ===> btop++ v.1.4.0
+2024/12/26 (15:29:22) | INFO: Logger set to INFO
+2024/12/26 (15:29:22) | INFO: Running on /dev/pts/3
+2024/12/26 (15:29:22) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/26 (15:29:22) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/26 (15:29:46) | INFO: Quitting! Runtime: 00:00:24
+
+2024/12/26 (20:37:35) | ===> btop++ v.1.4.0
+2024/12/26 (20:37:35) | INFO: Logger set to INFO
+2024/12/26 (20:37:35) | INFO: Running on /dev/pts/1
+2024/12/26 (20:37:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/26 (20:37:36) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/26 (20:40:22) | ERROR: Stall in Runner thread, restarting!
+
+2024/12/31 (09:59:00) | ===> btop++ v.1.4.0
+2024/12/31 (09:59:00) | INFO: Logger set to INFO
+2024/12/31 (09:59:00) | INFO: Running on /dev/pts/4
+2024/12/31 (09:59:00) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2024/12/31 (09:59:00) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (11:18:41) | INFO: Quitting! Runtime: 01:19:41
+
+2025/01/30 (12:56:21) | ===> btop++ v.1.4.0
+2025/01/30 (12:56:21) | INFO: Logger set to INFO
+2025/01/30 (12:56:21) | INFO: Running on /dev/pts/1
+2025/01/30 (12:56:21) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/01/30 (12:56:21) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/01/31 (14:26:30) | ===> btop++ v.1.4.0
+2025/01/31 (14:26:30) | INFO: Logger set to INFO
+2025/01/31 (14:26:30) | INFO: Running on /dev/pts/3
+2025/01/31 (14:26:30) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/01/31 (14:26:30) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/31 (14:27:04) | INFO: Quitting! Runtime: 00:00:34
+
+2025/02/04 (17:20:25) | ===> btop++ v.1.4.0
+2025/02/04 (17:20:25) | INFO: Logger set to INFO
+2025/02/04 (17:20:25) | INFO: Running on /dev/pts/1
+2025/02/04 (17:20:25) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/04 (17:20:25) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/06 (15:41:26) | ===> btop++ v.1.4.0
+2025/02/06 (15:41:26) | INFO: Logger set to INFO
+2025/02/06 (15:41:26) | INFO: Running on /dev/pts/2
+2025/02/06 (15:41:26) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/06 (15:41:26) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/06 (15:42:58) | INFO: Quitting! Runtime: 00:01:32
+
+2025/02/07 (20:46:45) | ===> btop++ v.1.4.0
+2025/02/07 (20:46:45) | INFO: Logger set to INFO
+2025/02/07 (20:46:45) | INFO: Running on /dev/pts/4
+2025/02/07 (20:46:45) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (20:46:45) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (20:46:54) | INFO: Quitting! Runtime: 00:00:09
+
+2025/02/07 (21:12:34) | ===> btop++ v.1.4.0
+2025/02/07 (21:12:34) | INFO: Logger set to INFO
+2025/02/07 (21:12:34) | INFO: Running on /dev/pts/4
+2025/02/07 (21:12:34) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:12:34) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (21:18:18) | INFO: Quitting! Runtime: 00:05:44
+
+2025/02/07 (21:20:23) | ===> btop++ v.1.4.0
+2025/02/07 (21:20:23) | INFO: Logger set to INFO
+2025/02/07 (21:20:23) | INFO: Running on /dev/pts/4
+2025/02/07 (21:20:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:20:23) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (21:30:56) | INFO: Quitting! Runtime: 00:10:33
+
+2025/02/07 (21:31:39) | ===> btop++ v.1.4.0
+2025/02/07 (21:31:39) | INFO: Logger set to INFO
+2025/02/07 (21:31:39) | INFO: Running on /dev/pts/1
+2025/02/07 (21:31:39) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:31:39) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (21:37:34) | INFO: Quitting! Runtime: 00:05:55
+
+2025/02/07 (21:46:13) | ===> btop++ v.1.4.0
+2025/02/07 (21:46:13) | INFO: Logger set to INFO
+2025/02/07 (21:46:13) | INFO: Running on /dev/pts/1
+2025/02/07 (21:46:13) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:46:13) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (21:46:33) | INFO: Quitting! Runtime: 00:00:20
+
+2025/02/07 (21:47:22) | ===> btop++ v.1.4.0
+2025/02/07 (21:47:22) | INFO: Logger set to INFO
+2025/02/07 (21:47:22) | INFO: Running on /dev/pts/1
+2025/02/07 (21:47:22) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:47:22) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (21:48:04) | INFO: Quitting! Runtime: 00:00:42
+
+2025/02/07 (21:49:46) | ===> btop++ v.1.4.0
+2025/02/07 (21:49:46) | INFO: Logger set to INFO
+2025/02/07 (21:49:46) | INFO: Running on /dev/pts/1
+2025/02/07 (21:49:46) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:49:46) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (21:50:55) | INFO: Quitting! Runtime: 00:01:09
+
+2025/02/07 (21:57:16) | ===> btop++ v.1.4.0
+2025/02/07 (21:57:16) | INFO: Logger set to INFO
+2025/02/07 (21:57:16) | INFO: Running on /dev/pts/1
+2025/02/07 (21:57:16) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (21:57:16) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (22:22:28) | INFO: Quitting! Runtime: 00:25:12
+
+2025/02/07 (22:22:29) | ===> btop++ v.1.4.0
+2025/02/07 (22:22:29) | INFO: Logger set to INFO
+2025/02/07 (22:22:29) | INFO: Running on /dev/pts/1
+2025/02/07 (22:22:29) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (22:22:29) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (22:22:57) | INFO: Quitting! Runtime: 00:00:28
+
+2025/02/07 (22:37:22) | ===> btop++ v.1.4.0
+2025/02/07 (22:37:22) | INFO: Logger set to INFO
+2025/02/07 (22:37:22) | INFO: Running on /dev/pts/1
+2025/02/07 (22:37:22) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/07 (22:37:22) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/07 (22:44:38) | INFO: Quitting! Runtime: 00:07:16
+
+2025/02/13 (15:49:08) | ===> btop++ v.1.4.0
+2025/02/13 (15:49:08) | INFO: Logger set to INFO
+2025/02/13 (15:49:08) | INFO: Running on /dev/pts/1
+2025/02/13 (15:49:09) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/13 (15:49:09) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/13 (15:49:57) | INFO: Quitting! Runtime: 00:00:49
+
+2025/02/13 (15:50:41) | ===> btop++ v.1.4.0
+2025/02/13 (15:50:41) | INFO: Logger set to INFO
+2025/02/13 (15:50:41) | INFO: Running on /dev/pts/4
+2025/02/13 (15:50:41) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/13 (15:50:41) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/27 (17:46:11) | ===> btop++ v.1.4.0
+2025/02/27 (17:46:11) | INFO: Logger set to INFO
+2025/02/27 (17:46:11) | INFO: Running on /dev/pts/6
+2025/02/27 (17:46:11) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/02/27 (17:46:11) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/15 (05:31:11) | ===> btop++ v.1.4.0
+2025/03/15 (05:31:11) | INFO: Logger set to INFO
+2025/03/15 (05:31:11) | INFO: Running on /dev/pts/1
+2025/03/15 (05:31:11) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/03/15 (05:31:11) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/15 (05:31:45) | INFO: Quitting! Runtime: 00:00:34
+
+2025/03/20 (16:11:23) | ===> btop++ v.1.4.0
+2025/03/20 (16:11:23) | INFO: Logger set to INFO
+2025/03/20 (16:11:23) | INFO: Running on /dev/pts/2
+2025/03/20 (16:11:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/03/20 (16:11:23) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/20 (16:11:34) | INFO: Quitting! Runtime: 00:00:11
+
+2025/03/21 (20:22:29) | ===> btop++ v.1.4.0
+2025/03/21 (20:22:29) | INFO: Logger set to INFO
+2025/03/21 (20:22:29) | INFO: Running on /dev/pts/1
+2025/03/21 (20:22:29) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/03/21 (20:22:29) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/21 (20:22:39) | INFO: Quitting! Runtime: 00:00:10
+
+2025/03/24 (19:29:32) | ===> btop++ v.1.4.0
+2025/03/24 (19:29:32) | INFO: Logger set to INFO
+2025/03/24 (19:29:32) | INFO: Running on /dev/pts/1
+2025/03/24 (19:29:32) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/03/24 (19:29:32) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/24 (19:30:14) | INFO: Quitting! Runtime: 00:00:42
+
+2025/03/24 (21:26:38) | ===> btop++ v.1.4.0
+2025/03/24 (21:26:38) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/25 (12:00:30) | ===> btop++ v.1.4.0
+2025/03/25 (12:00:30) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/03/27 (17:54:46) | ===> btop++ v.1.4.0
+2025/03/27 (17:54:46) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (11:59:20) | ===> btop++ v.1.4.0
+2025/04/01 (11:59:20) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (15:12:59) | ===> btop++ v.1.4.0
+2025/04/01 (15:12:59) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (19:43:43) | ===> btop++ v.1.4.0
+2025/04/01 (19:43:43) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:04:39) | ===> btop++ v.1.4.0
+2025/04/01 (20:04:39) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:04:46) | ===> btop++ v.1.4.0
+2025/04/01 (20:04:46) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:04:48) | ===> btop++ v.1.4.0
+2025/04/01 (20:04:48) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:04:49) | ===> btop++ v.1.4.0
+2025/04/01 (20:04:49) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:04:50) | ===> btop++ v.1.4.0
+2025/04/01 (20:04:50) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (20:19:52) | ===> btop++ v.1.4.0
+2025/04/01 (20:19:52) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (22:32:00) | ===> btop++ v.1.4.0
+2025/04/01 (22:32:00) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (22:32:12) | ===> btop++ v.1.4.0
+2025/04/01 (22:32:12) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/01 (23:09:05) | ===> btop++ v.1.4.0
+2025/04/01 (23:09:05) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (13:24:28) | ===> btop++ v.1.4.0
+2025/04/04 (13:24:28) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (22:04:12) | ===> btop++ v.1.4.0
+2025/04/04 (22:04:12) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/04 (22:05:27) | ===> btop++ v.1.4.0
+2025/04/04 (22:05:27) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (11:49:09) | ===> btop++ v.1.4.0
+2025/04/05 (11:49:09) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (11:49:59) | ===> btop++ v.1.4.0
+2025/04/05 (11:49:59) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (14:39:24) | ===> btop++ v.1.4.0
+2025/04/05 (14:39:24) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (15:22:33) | ===> btop++ v.1.4.0
+2025/04/05 (15:22:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (15:22:54) | ===> btop++ v.1.4.0
+2025/04/05 (15:22:54) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (15:23:04) | ===> btop++ v.1.4.0
+2025/04/05 (15:23:04) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (15:24:46) | ===> btop++ v.1.4.0
+2025/04/05 (15:24:46) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (15:56:01) | ===> btop++ v.1.4.0
+2025/04/05 (15:56:01) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (17:14:56) | ===> btop++ v.1.4.0
+2025/04/05 (17:14:56) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (17:16:53) | ===> btop++ v.1.4.0
+2025/04/05 (17:16:53) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (17:34:37) | ===> btop++ v.1.4.0
+2025/04/05 (17:34:37) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/04/05 (17:37:05) | ===> btop++ v.1.4.0
+2025/04/05 (17:37:05) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/05 (17:37:26) | INFO: Logger set to INFO
+2025/04/05 (17:37:26) | INFO: Logger set to DEBUG
+2025/04/05 (17:37:29) | INFO: Logger set to INFO
+2025/04/05 (17:37:29) | INFO: Logger set to DEBUG
+2025/04/05 (17:37:42) | DEBUG: Writing new config file
+2025/04/05 (17:37:42) | INFO: Quitting! Runtime: 00:00:37
+
+2025/04/05 (17:37:50) | ===> btop++ v.1.4.0
+2025/04/05 (17:37:50) | INFO: Logger set to DEBUG
+2025/04/05 (17:37:50) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/05 (17:37:50) | INFO: Running on /dev/pts/2
+2025/04/05 (17:37:50) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/05 (17:37:50) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/05 (17:37:50) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/05 (17:37:50) | DEBUG: Shared::init() : Initialized.
+2025/04/05 (17:37:50) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/05 (17:37:53) | INFO: Quitting! Runtime: 00:00:03
+
+2025/04/05 (18:40:23) | ===> btop++ v.1.4.0
+2025/04/05 (18:40:23) | INFO: Logger set to DEBUG
+2025/04/05 (18:40:23) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/05 (18:40:23) | INFO: Running on /dev/pts/3
+2025/04/05 (18:40:23) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/05 (18:40:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/05 (18:40:23) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/05 (18:40:23) | DEBUG: Shared::init() : Initialized.
+2025/04/05 (18:40:23) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/05 (18:40:39) | INFO: Quitting! Runtime: 00:00:16
+
+2025/04/05 (20:50:51) | ===> btop++ v.1.4.0
+2025/04/05 (20:50:51) | INFO: Logger set to DEBUG
+2025/04/05 (20:50:51) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/05 (20:50:51) | INFO: Running on /dev/pts/6
+2025/04/05 (20:50:51) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/05 (20:50:51) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/05 (20:50:51) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/05 (20:50:51) | DEBUG: Shared::init() : Initialized.
+2025/04/05 (20:50:51) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/05 (20:50:56) | INFO: Quitting! Runtime: 00:00:05
+
+2025/04/05 (20:50:59) | ===> btop++ v.1.4.0
+2025/04/05 (20:50:59) | INFO: Logger set to DEBUG
+2025/04/05 (20:50:59) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/05 (20:50:59) | INFO: Running on /dev/pts/6
+2025/04/05 (20:50:59) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/05 (20:50:59) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/05 (20:50:59) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/05 (20:50:59) | DEBUG: Shared::init() : Initialized.
+2025/04/05 (20:50:59) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/05 (20:51:14) | INFO: Quitting! Runtime: 00:00:15
+
+2025/04/05 (20:59:07) | ===> btop++ v.1.4.0
+2025/04/05 (20:59:07) | INFO: Logger set to DEBUG
+2025/04/05 (20:59:07) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/05 (20:59:07) | INFO: Running on /dev/pts/6
+2025/04/05 (20:59:07) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/05 (20:59:07) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/05 (20:59:07) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/05 (20:59:07) | DEBUG: Shared::init() : Initialized.
+2025/04/05 (20:59:07) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/05 (20:59:22) | INFO: Quitting! Runtime: 00:00:15
+
+2025/04/07 (11:55:07) | ===> btop++ v.1.4.0
+2025/04/07 (11:55:07) | INFO: Logger set to DEBUG
+2025/04/07 (11:55:07) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/07 (11:55:07) | INFO: Running on /dev/pts/20
+2025/04/07 (11:55:07) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/07 (11:55:07) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/07 (11:55:07) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/07 (11:55:07) | DEBUG: Shared::init() : Initialized.
+2025/04/07 (11:55:07) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/07 (11:55:25) | ===> btop++ v.1.4.0
+2025/04/07 (11:55:25) | INFO: Logger set to DEBUG
+2025/04/07 (11:55:25) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/07 (11:55:25) | INFO: Running on /dev/pts/20
+2025/04/07 (11:55:25) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/07 (11:55:25) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/07 (11:55:25) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/07 (11:55:25) | DEBUG: Shared::init() : Initialized.
+2025/04/07 (11:55:25) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/07 (11:56:44) | ===> btop++ v.1.4.0
+2025/04/07 (11:56:44) | INFO: Logger set to DEBUG
+2025/04/07 (11:56:44) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/07 (11:56:44) | INFO: Running on /dev/pts/0
+2025/04/07 (11:56:44) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/07 (11:56:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/07 (11:56:44) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/07 (11:56:44) | DEBUG: Shared::init() : Initialized.
+2025/04/07 (11:56:44) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/07 (11:56:59) | INFO: Quitting! Runtime: 00:00:15
+
+2025/04/07 (16:33:43) | ===> btop++ v.1.4.0
+2025/04/07 (16:33:43) | INFO: Logger set to DEBUG
+2025/04/07 (16:33:43) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/07 (16:33:43) | INFO: Running on /dev/pts/2
+2025/04/07 (16:33:43) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/07 (16:33:43) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/07 (16:33:43) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/07 (16:33:43) | DEBUG: Shared::init() : Initialized.
+2025/04/07 (16:33:43) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/07 (16:33:44) | INFO: Quitting! Runtime: 00:00:01
+
+2025/04/08 (14:53:46) | ===> btop++ v.1.4.0
+2025/04/08 (14:53:46) | INFO: Logger set to DEBUG
+2025/04/08 (14:53:46) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/08 (14:53:46) | INFO: Running on /dev/pts/3
+2025/04/08 (14:53:46) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/08 (14:53:46) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/08 (14:53:46) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/08 (14:53:46) | DEBUG: Shared::init() : Initialized.
+2025/04/08 (14:53:46) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/08 (14:53:53) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/09 (11:52:00) | ===> btop++ v.1.4.0
+2025/04/09 (11:52:00) | INFO: Logger set to DEBUG
+2025/04/09 (11:52:00) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/09 (11:52:00) | INFO: Running on /dev/pts/0
+2025/04/09 (11:52:00) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/09 (11:52:00) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/09 (11:52:00) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/09 (11:52:00) | DEBUG: Shared::init() : Initialized.
+2025/04/09 (11:52:00) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/09 (11:52:09) | DEBUG: Writing new config file
+2025/04/09 (11:52:09) | INFO: Quitting! Runtime: 00:00:09
+
+2025/04/09 (13:39:41) | ===> btop++ v.1.4.0
+2025/04/09 (13:39:41) | INFO: Logger set to DEBUG
+2025/04/09 (13:39:41) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/09 (13:39:41) | INFO: Running on /dev/pts/0
+2025/04/09 (13:39:41) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/09 (13:39:41) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/09 (13:39:41) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/09 (13:39:41) | DEBUG: Shared::init() : Initialized.
+2025/04/09 (13:39:41) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/09 (13:39:48) | WARNING: Failed to join _runner thread on exit!
+2025/04/09 (13:39:48) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/09 (13:59:02) | ===> btop++ v.1.4.0
+2025/04/09 (13:59:02) | INFO: Logger set to DEBUG
+2025/04/09 (13:59:02) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/09 (13:59:02) | INFO: Running on /dev/pts/0
+2025/04/09 (13:59:02) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/09 (13:59:02) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/09 (13:59:02) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/09 (13:59:02) | DEBUG: Shared::init() : Initialized.
+2025/04/09 (13:59:02) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/09 (13:59:09) | DEBUG: Writing new config file
+2025/04/09 (13:59:09) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/09 (15:10:44) | ===> btop++ v.1.4.0
+2025/04/09 (15:10:44) | INFO: Logger set to DEBUG
+2025/04/09 (15:10:44) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/09 (15:10:44) | INFO: Running on /dev/pts/1
+2025/04/09 (15:10:44) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/09 (15:10:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/09 (15:10:44) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/09 (15:10:44) | DEBUG: Shared::init() : Initialized.
+2025/04/09 (15:10:44) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/09 (15:10:47) | INFO: Quitting! Runtime: 00:00:03
+
+2025/04/09 (17:02:09) | ===> btop++ v.1.4.0
+2025/04/09 (17:02:09) | INFO: Logger set to DEBUG
+2025/04/09 (17:02:09) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/09 (17:02:09) | INFO: Running on /dev/pts/3
+2025/04/09 (17:02:09) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/09 (17:02:09) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/09 (17:02:09) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/09 (17:02:09) | DEBUG: Shared::init() : Initialized.
+2025/04/09 (17:02:09) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/09 (17:02:16) | WARNING: Failed to join _runner thread on exit!
+2025/04/09 (17:02:16) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/09 (23:11:30) | ===> btop++ v.1.4.0
+2025/04/09 (23:11:30) | INFO: Logger set to DEBUG
+2025/04/09 (23:11:30) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/09 (23:11:30) | INFO: Running on /dev/pts/3
+2025/04/09 (23:11:30) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/09 (23:11:30) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/09 (23:11:30) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/09 (23:11:30) | DEBUG: Shared::init() : Initialized.
+2025/04/09 (23:11:30) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/09 (23:11:51) | WARNING: Failed to join _runner thread on exit!
+2025/04/09 (23:11:51) | DEBUG: Writing new config file
+2025/04/09 (23:11:51) | INFO: Quitting! Runtime: 00:00:21
+
+2025/04/10 (11:46:48) | ===> btop++ v.1.4.0
+2025/04/10 (11:46:48) | INFO: Logger set to DEBUG
+2025/04/10 (11:46:48) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/10 (11:46:48) | INFO: Running on /dev/pts/2
+2025/04/10 (11:46:48) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/10 (11:46:48) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/10 (11:46:48) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/10 (11:46:48) | DEBUG: Shared::init() : Initialized.
+2025/04/10 (11:46:48) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/10 (11:46:53) | WARNING: Failed to join _runner thread on exit!
+2025/04/10 (11:46:53) | INFO: Quitting! Runtime: 00:00:05
+
+2025/04/10 (12:01:40) | ===> btop++ v.1.4.0
+2025/04/10 (12:01:40) | INFO: Logger set to DEBUG
+2025/04/10 (12:01:40) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/10 (12:01:40) | INFO: Running on /dev/pts/2
+2025/04/10 (12:01:40) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/10 (12:01:40) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/10 (12:01:40) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/10 (12:01:40) | DEBUG: Shared::init() : Initialized.
+2025/04/10 (12:01:40) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/10 (12:01:55) | DEBUG: Writing new config file
+2025/04/10 (12:01:55) | INFO: Quitting! Runtime: 00:00:15
+
+2025/04/10 (19:39:04) | ===> btop++ v.1.4.0
+2025/04/10 (19:39:04) | INFO: Logger set to DEBUG
+2025/04/10 (19:39:04) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/10 (19:39:04) | INFO: Running on /dev/pts/0
+2025/04/10 (19:39:04) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/10 (19:39:04) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/10 (19:39:04) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/10 (19:39:04) | DEBUG: Shared::init() : Initialized.
+2025/04/10 (19:39:04) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/10 (19:39:09) | INFO: Quitting! Runtime: 00:00:05
+
+2025/04/10 (23:25:55) | ===> btop++ v.1.4.0
+2025/04/10 (23:25:55) | INFO: Logger set to DEBUG
+2025/04/10 (23:25:55) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/10 (23:25:55) | INFO: Running on /dev/pts/0
+2025/04/10 (23:25:55) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/10 (23:25:55) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/10 (23:25:55) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/10 (23:25:55) | DEBUG: Shared::init() : Initialized.
+2025/04/10 (23:25:55) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/10 (23:26:03) | INFO: Quitting! Runtime: 00:00:08
+
+2025/04/11 (12:03:42) | ===> btop++ v.1.4.0
+2025/04/11 (12:03:42) | INFO: Logger set to DEBUG
+2025/04/11 (12:03:42) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/11 (12:03:42) | INFO: Running on /dev/pts/1
+2025/04/11 (12:03:42) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/11 (12:03:42) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/11 (12:03:42) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/11 (12:03:42) | DEBUG: Shared::init() : Initialized.
+2025/04/11 (12:03:42) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/11 (12:03:48) | INFO: Quitting! Runtime: 00:00:06
+
+2025/04/11 (14:47:11) | ===> btop++ v.1.4.0
+2025/04/11 (14:47:11) | INFO: Logger set to DEBUG
+2025/04/11 (14:47:11) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/11 (14:47:11) | INFO: Running on /dev/pts/2
+2025/04/11 (14:47:12) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/11 (14:47:12) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/11 (14:47:12) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/11 (14:47:12) | DEBUG: Shared::init() : Initialized.
+2025/04/11 (14:47:12) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/11 (14:47:21) | INFO: Quitting! Runtime: 00:00:10
+
+2025/04/11 (14:48:36) | ===> btop++ v.1.4.0
+2025/04/11 (14:48:36) | INFO: Logger set to DEBUG
+2025/04/11 (14:48:36) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/11 (14:48:36) | INFO: Running on /dev/pts/2
+2025/04/11 (14:48:36) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/11 (14:48:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/11 (14:48:36) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/11 (14:48:36) | DEBUG: Shared::init() : Initialized.
+2025/04/11 (14:48:36) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/11 (14:48:44) | WARNING: Failed to join _runner thread on exit!
+2025/04/11 (14:48:44) | INFO: Quitting! Runtime: 00:00:08
+
+2025/04/11 (20:45:27) | ===> btop++ v.1.4.0
+2025/04/11 (20:45:27) | INFO: Logger set to DEBUG
+2025/04/11 (20:45:27) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/11 (20:45:27) | INFO: Running on /dev/pts/2
+2025/04/11 (20:45:27) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/11 (20:45:27) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/11 (20:45:27) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/11 (20:45:27) | DEBUG: Shared::init() : Initialized.
+2025/04/11 (20:45:27) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/11 (20:45:31) | INFO: Quitting! Runtime: 00:00:04
+
+2025/04/11 (20:45:37) | ===> btop++ v.1.4.0
+2025/04/11 (20:45:37) | INFO: Logger set to DEBUG
+2025/04/11 (20:45:37) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/11 (20:45:37) | INFO: Running on /dev/pts/2
+2025/04/11 (20:45:37) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/11 (20:45:37) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/11 (20:45:37) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/11 (20:45:37) | DEBUG: Shared::init() : Initialized.
+2025/04/11 (20:45:37) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/11 (20:45:40) | INFO: Quitting! Runtime: 00:00:03
+
+2025/04/11 (23:06:04) | ===> btop++ v.1.4.0
+2025/04/11 (23:06:04) | INFO: Logger set to DEBUG
+2025/04/11 (23:06:04) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/11 (23:06:04) | INFO: Running on /dev/pts/2
+2025/04/11 (23:06:04) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/11 (23:06:04) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/11 (23:06:04) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/11 (23:06:04) | DEBUG: Shared::init() : Initialized.
+2025/04/11 (23:06:04) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/11 (23:06:16) | INFO: Quitting! Runtime: 00:00:12
+
+2025/04/12 (20:50:53) | ===> btop++ v.1.4.0
+2025/04/12 (20:50:53) | INFO: Logger set to DEBUG
+2025/04/12 (20:50:53) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/12 (20:50:53) | INFO: Running on /dev/pts/2
+2025/04/12 (20:50:53) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/12 (20:50:53) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/12 (20:50:53) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/12 (20:50:53) | DEBUG: Shared::init() : Initialized.
+2025/04/12 (20:50:53) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/12 (20:51:00) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/13 (19:10:37) | ===> btop++ v.1.4.0
+2025/04/13 (19:10:37) | INFO: Logger set to DEBUG
+2025/04/13 (19:10:37) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/13 (19:10:37) | INFO: Running on /dev/pts/0
+2025/04/13 (19:10:41) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/13 (19:10:41) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/13 (19:10:41) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/13 (19:10:41) | DEBUG: Shared::init() : Initialized.
+2025/04/13 (19:10:41) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/13 (19:11:17) | INFO: Quitting! Runtime: 00:00:41
+
+2025/04/13 (21:19:31) | ===> btop++ v.1.4.0
+2025/04/13 (21:19:31) | INFO: Logger set to DEBUG
+2025/04/13 (21:19:31) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/13 (21:19:31) | INFO: Running on /dev/pts/3
+2025/04/13 (21:19:32) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/13 (21:19:32) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/13 (21:19:32) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/13 (21:19:32) | DEBUG: Shared::init() : Initialized.
+2025/04/13 (21:19:32) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/13 (21:19:55) | INFO: Quitting! Runtime: 00:00:24
+
+2025/04/14 (15:33:19) | ===> btop++ v.1.4.0
+2025/04/14 (15:33:19) | INFO: Logger set to DEBUG
+2025/04/14 (15:33:19) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/14 (15:33:19) | INFO: Running on /dev/pts/3
+2025/04/14 (15:33:19) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/14 (15:33:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/14 (15:33:19) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/14 (15:33:19) | DEBUG: Shared::init() : Initialized.
+2025/04/14 (15:33:19) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/14 (23:37:27) | ===> btop++ v.1.4.0
+2025/04/14 (23:37:27) | INFO: Logger set to DEBUG
+2025/04/14 (23:37:27) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/14 (23:37:27) | INFO: Running on /dev/pts/1
+2025/04/14 (23:37:27) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/14 (23:37:27) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/14 (23:37:27) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/14 (23:37:27) | DEBUG: Shared::init() : Initialized.
+2025/04/14 (23:37:27) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/15 (11:51:02) | ===> btop++ v.1.4.0
+2025/04/15 (11:51:02) | INFO: Logger set to DEBUG
+2025/04/15 (11:51:02) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/15 (11:51:02) | INFO: Running on /dev/pts/2
+2025/04/15 (11:51:02) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/15 (11:51:02) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/15 (11:51:02) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/15 (11:51:02) | DEBUG: Shared::init() : Initialized.
+2025/04/15 (11:51:02) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/15 (11:51:09) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/15 (12:21:06) | ===> btop++ v.1.4.0
+2025/04/15 (12:21:06) | INFO: Logger set to DEBUG
+2025/04/15 (12:21:06) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/15 (12:21:06) | INFO: Running on /dev/pts/1
+2025/04/15 (12:21:06) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/15 (12:21:06) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/15 (12:21:06) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/15 (12:21:06) | DEBUG: Shared::init() : Initialized.
+2025/04/15 (12:21:06) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/15 (12:21:13) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/15 (14:28:12) | ===> btop++ v.1.4.0
+2025/04/15 (14:28:12) | INFO: Logger set to DEBUG
+2025/04/15 (14:28:12) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/15 (14:28:12) | INFO: Running on /dev/pts/1
+2025/04/15 (14:28:12) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/15 (14:28:12) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/15 (14:28:12) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/15 (14:28:12) | DEBUG: Shared::init() : Initialized.
+2025/04/15 (14:28:12) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/15 (20:45:17) | ===> btop++ v.1.4.0
+2025/04/15 (20:45:17) | INFO: Logger set to DEBUG
+2025/04/15 (20:45:17) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/15 (20:45:17) | INFO: Running on /dev/pts/3
+2025/04/15 (20:45:17) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/15 (20:45:17) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/15 (20:45:17) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/15 (20:45:17) | DEBUG: Shared::init() : Initialized.
+2025/04/15 (20:45:17) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/16 (20:05:02) | ===> btop++ v.1.4.0
+2025/04/16 (20:05:02) | INFO: Logger set to DEBUG
+2025/04/16 (20:05:02) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/16 (20:05:02) | INFO: Running on /dev/pts/4
+2025/04/16 (20:05:02) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/16 (20:05:02) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/16 (20:05:02) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/16 (20:05:02) | DEBUG: Shared::init() : Initialized.
+2025/04/16 (20:05:02) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/16 (22:47:41) | ===> btop++ v.1.4.0
+2025/04/16 (22:47:41) | INFO: Logger set to DEBUG
+2025/04/16 (22:47:41) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/16 (22:47:41) | INFO: Running on /dev/pts/3
+2025/04/16 (22:47:41) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/16 (22:47:41) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/16 (22:47:41) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/16 (22:47:41) | DEBUG: Shared::init() : Initialized.
+2025/04/16 (22:47:41) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/17 (17:11:08) | ===> btop++ v.1.4.0
+2025/04/17 (17:11:08) | INFO: Logger set to DEBUG
+2025/04/17 (17:11:08) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/17 (17:11:08) | INFO: Running on /dev/pts/2
+2025/04/17 (17:11:08) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/17 (17:11:08) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/17 (17:11:08) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/17 (17:11:08) | DEBUG: Shared::init() : Initialized.
+2025/04/17 (17:11:08) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/17 (17:12:19) | ===> btop++ v.1.4.0
+2025/04/17 (17:12:19) | INFO: Logger set to DEBUG
+2025/04/17 (17:12:19) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/17 (17:12:19) | INFO: Running on /dev/pts/2
+2025/04/17 (17:12:19) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/17 (17:12:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/17 (17:12:19) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/17 (17:12:19) | DEBUG: Shared::init() : Initialized.
+2025/04/17 (17:12:19) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/17 (17:28:02) | ===> btop++ v.1.4.0
+2025/04/17 (17:28:02) | INFO: Logger set to DEBUG
+2025/04/17 (17:28:02) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/17 (17:28:02) | INFO: Running on /dev/pts/3
+2025/04/17 (17:28:02) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/17 (17:28:02) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/17 (17:28:02) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/17 (17:28:02) | DEBUG: Shared::init() : Initialized.
+2025/04/17 (17:28:02) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/19 (00:22:00) | ===> btop++ v.1.4.0
+2025/04/19 (00:22:00) | INFO: Logger set to DEBUG
+2025/04/19 (00:22:00) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/19 (00:22:00) | INFO: Running on /dev/pts/2
+2025/04/19 (00:22:00) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/19 (00:22:00) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/19 (00:22:00) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/19 (00:22:00) | DEBUG: Shared::init() : Initialized.
+2025/04/19 (00:22:00) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/19 (16:57:47) | ===> btop++ v.1.4.0
+2025/04/19 (16:57:47) | INFO: Logger set to DEBUG
+2025/04/19 (16:57:47) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/19 (16:57:47) | INFO: Running on /dev/pts/2
+2025/04/19 (16:57:47) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/19 (16:57:47) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/19 (16:57:47) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/19 (16:57:47) | DEBUG: Shared::init() : Initialized.
+2025/04/19 (16:57:47) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/20 (13:45:14) | ===> btop++ v.1.4.0
+2025/04/20 (13:45:14) | INFO: Logger set to DEBUG
+2025/04/20 (13:45:14) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/20 (13:45:14) | INFO: Running on /dev/pts/1
+2025/04/20 (13:45:14) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/20 (13:45:14) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/20 (13:45:14) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/20 (13:45:14) | DEBUG: Shared::init() : Initialized.
+2025/04/20 (13:45:14) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/20 (21:37:16) | ===> btop++ v.1.4.0
+2025/04/20 (21:37:16) | INFO: Logger set to DEBUG
+2025/04/20 (21:37:16) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/20 (21:37:16) | INFO: Running on /dev/pts/1
+2025/04/20 (21:37:16) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/20 (21:37:16) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/20 (21:37:16) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/20 (21:37:16) | DEBUG: Shared::init() : Initialized.
+2025/04/20 (21:37:16) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/21 (00:05:10) | ===> btop++ v.1.4.0
+2025/04/21 (00:05:10) | INFO: Logger set to DEBUG
+2025/04/21 (00:05:10) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/21 (00:05:10) | INFO: Running on /dev/pts/1
+2025/04/21 (00:05:10) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/21 (00:05:10) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/21 (00:05:10) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/21 (00:05:10) | DEBUG: Shared::init() : Initialized.
+2025/04/21 (00:05:10) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/23 (15:57:15) | ===> btop++ v.1.4.0
+2025/04/23 (15:57:15) | INFO: Logger set to DEBUG
+2025/04/23 (15:57:15) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/23 (15:57:15) | INFO: Running on /dev/pts/2
+2025/04/23 (15:57:15) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/23 (15:57:15) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/23 (15:57:15) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/23 (15:57:15) | DEBUG: Shared::init() : Initialized.
+2025/04/23 (15:57:15) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/23 (15:57:20) | INFO: Quitting! Runtime: 00:00:05
+
+2025/04/24 (17:31:18) | ===> btop++ v.1.4.0
+2025/04/24 (17:31:18) | INFO: Logger set to DEBUG
+2025/04/24 (17:31:18) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/24 (17:31:18) | INFO: Running on /dev/pts/2
+2025/04/24 (17:31:18) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/24 (17:31:18) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/24 (17:31:18) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/24 (17:31:18) | DEBUG: Shared::init() : Initialized.
+2025/04/24 (17:31:18) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/24 (17:31:48) | DEBUG: Writing new config file
+2025/04/24 (17:31:48) | INFO: Quitting! Runtime: 00:00:30
+
+2025/04/24 (18:34:26) | ===> btop++ v.1.4.0
+2025/04/24 (18:34:26) | INFO: Logger set to DEBUG
+2025/04/24 (18:34:26) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/24 (18:34:26) | INFO: Running on /dev/pts/4
+2025/04/24 (18:34:26) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/24 (18:34:26) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/24 (18:34:26) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/24 (18:34:26) | DEBUG: Shared::init() : Initialized.
+2025/04/24 (18:34:26) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/24 (18:34:43) | DEBUG: Writing new config file
+2025/04/24 (18:34:43) | INFO: Quitting! Runtime: 00:00:17
+
+2025/04/24 (19:58:11) | ===> btop++ v.1.4.0
+2025/04/24 (19:58:11) | INFO: Logger set to DEBUG
+2025/04/24 (19:58:11) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/24 (19:58:11) | INFO: Running on /dev/pts/0
+2025/04/24 (19:58:11) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/24 (19:58:11) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/24 (19:58:11) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/24 (19:58:11) | DEBUG: Shared::init() : Initialized.
+2025/04/24 (19:58:11) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/24 (19:58:11) | INFO: Quitting! Runtime: 00:00:00
+
+2025/04/24 (19:58:12) | ===> btop++ v.1.4.0
+2025/04/24 (19:58:12) | INFO: Logger set to DEBUG
+2025/04/24 (19:58:12) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/24 (19:58:12) | INFO: Running on /dev/pts/0
+2025/04/24 (19:58:12) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/24 (19:58:12) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/24 (19:58:12) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/24 (19:58:12) | DEBUG: Shared::init() : Initialized.
+2025/04/24 (19:58:12) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/24 (19:58:20) | INFO: Quitting! Runtime: 00:00:08
+
+2025/04/24 (22:56:06) | ===> btop++ v.1.4.0
+2025/04/24 (22:56:06) | INFO: Logger set to DEBUG
+2025/04/24 (22:56:06) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/24 (22:56:06) | INFO: Running on /dev/pts/1
+2025/04/24 (22:56:06) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/24 (22:56:06) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/24 (22:56:06) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/24 (22:56:06) | DEBUG: Shared::init() : Initialized.
+2025/04/24 (22:56:06) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/24 (22:56:13) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/24 (22:56:18) | ===> btop++ v.1.4.0
+2025/04/24 (22:56:18) | INFO: Logger set to DEBUG
+2025/04/24 (22:56:18) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/24 (22:56:18) | INFO: Running on /dev/pts/1
+2025/04/24 (22:56:18) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/24 (22:56:18) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/24 (22:56:18) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/24 (22:56:18) | DEBUG: Shared::init() : Initialized.
+2025/04/24 (22:56:18) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/24 (22:56:24) | DEBUG: Writing new config file
+2025/04/24 (22:56:24) | INFO: Quitting! Runtime: 00:00:06
+
+2025/04/25 (12:42:57) | ===> btop++ v.1.4.0
+2025/04/25 (12:42:57) | INFO: Logger set to DEBUG
+2025/04/25 (12:42:57) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/25 (12:42:57) | INFO: Running on /dev/pts/2
+2025/04/25 (12:42:57) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/25 (12:42:57) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/25 (12:42:57) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/25 (12:42:57) | DEBUG: Shared::init() : Initialized.
+2025/04/25 (12:42:57) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/25 (12:43:07) | INFO: Quitting! Runtime: 00:00:10
+
+2025/04/25 (12:47:19) | ===> btop++ v.1.4.0
+2025/04/25 (12:47:19) | INFO: Logger set to DEBUG
+2025/04/25 (12:47:19) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/25 (12:47:19) | INFO: Running on /dev/pts/2
+2025/04/25 (12:47:19) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/25 (12:47:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/25 (12:47:19) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/25 (12:47:19) | DEBUG: Shared::init() : Initialized.
+2025/04/25 (12:47:19) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/25 (12:47:45) | INFO: Quitting! Runtime: 00:00:26
+
+2025/04/25 (15:42:55) | ===> btop++ v.1.4.0
+2025/04/25 (15:42:55) | INFO: Logger set to DEBUG
+2025/04/25 (15:42:55) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/25 (15:42:55) | INFO: Running on /dev/pts/2
+2025/04/25 (15:42:55) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/25 (15:42:55) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/25 (15:42:55) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/25 (15:42:55) | DEBUG: Shared::init() : Initialized.
+2025/04/25 (15:42:55) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/26 (22:13:59) | ===> btop++ v.1.4.0
+2025/04/26 (22:13:59) | INFO: Logger set to DEBUG
+2025/04/26 (22:13:59) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/26 (22:13:59) | INFO: Running on /dev/pts/3
+2025/04/26 (22:13:59) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/26 (22:13:59) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/26 (22:13:59) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/26 (22:13:59) | DEBUG: Shared::init() : Initialized.
+2025/04/26 (22:13:59) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/26 (22:14:01) | INFO: Quitting! Runtime: 00:00:02
+
+2025/04/27 (14:40:32) | ===> btop++ v.1.4.0
+2025/04/27 (14:40:32) | INFO: Logger set to DEBUG
+2025/04/27 (14:40:32) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/27 (14:40:32) | INFO: Running on /dev/pts/4
+2025/04/27 (14:40:34) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/27 (14:40:34) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/27 (14:40:34) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/27 (14:40:34) | DEBUG: Shared::init() : Initialized.
+2025/04/27 (14:40:34) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/27 (14:40:36) | ===> btop++ v.1.4.0
+2025/04/27 (14:40:36) | INFO: Logger set to DEBUG
+2025/04/27 (14:40:36) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/27 (14:40:36) | INFO: Running on /dev/pts/5
+2025/04/27 (14:40:36) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/27 (14:40:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/27 (14:40:36) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/27 (14:40:36) | DEBUG: Shared::init() : Initialized.
+2025/04/27 (14:40:36) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/27 (14:40:37) | INFO: Quitting! Runtime: 00:00:01
+2025/04/27 (14:40:37) | INFO: Quitting! Runtime: 00:00:05
+
+2025/04/27 (14:44:37) | ===> btop++ v.1.4.0
+2025/04/27 (14:44:37) | INFO: Logger set to DEBUG
+2025/04/27 (14:44:37) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/27 (14:44:37) | INFO: Running on /dev/pts/4
+2025/04/27 (14:44:37) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/27 (14:44:37) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/27 (14:44:37) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/27 (14:44:37) | DEBUG: Shared::init() : Initialized.
+2025/04/27 (14:44:37) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/27 (15:17:15) | ===> btop++ v.1.4.0
+2025/04/27 (15:17:15) | INFO: Logger set to DEBUG
+2025/04/27 (15:17:15) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/27 (15:17:15) | INFO: Running on /dev/pts/3
+2025/04/27 (15:17:15) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/27 (15:17:15) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/27 (15:17:15) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/27 (15:17:15) | DEBUG: Shared::init() : Initialized.
+2025/04/27 (15:17:15) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/27 (22:06:54) | ===> btop++ v.1.4.0
+2025/04/27 (22:06:54) | INFO: Logger set to DEBUG
+2025/04/27 (22:06:54) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/27 (22:06:54) | INFO: Running on /dev/pts/3
+2025/04/27 (22:06:54) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/27 (22:06:54) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/27 (22:06:54) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/27 (22:06:54) | DEBUG: Shared::init() : Initialized.
+2025/04/27 (22:06:54) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/28 (00:03:30) | ===> btop++ v.1.4.0
+2025/04/28 (00:03:30) | INFO: Logger set to DEBUG
+2025/04/28 (00:03:30) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/28 (00:03:30) | INFO: Running on /dev/pts/0
+2025/04/28 (00:03:30) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/28 (00:03:30) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/28 (00:03:30) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/28 (00:03:30) | DEBUG: Shared::init() : Initialized.
+2025/04/28 (00:03:30) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/28 (11:48:58) | ===> btop++ v.1.4.0
+2025/04/28 (11:48:58) | INFO: Logger set to DEBUG
+2025/04/28 (11:48:58) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/28 (11:48:58) | INFO: Running on /dev/pts/0
+2025/04/28 (11:48:59) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/28 (11:48:59) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/28 (11:48:59) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/28 (11:48:59) | DEBUG: Shared::init() : Initialized.
+2025/04/28 (11:48:59) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/28 (11:49:05) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/28 (13:27:15) | ===> btop++ v.1.4.0
+2025/04/28 (13:27:15) | INFO: Logger set to DEBUG
+2025/04/28 (13:27:15) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/28 (13:27:15) | INFO: Running on /dev/pts/1
+2025/04/28 (13:27:15) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/28 (13:27:15) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/28 (13:27:15) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/28 (13:27:15) | DEBUG: Shared::init() : Initialized.
+2025/04/28 (13:27:15) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/28 (13:27:22) | INFO: Quitting! Runtime: 00:00:07
+
+2025/04/28 (19:26:27) | ===> btop++ v.1.4.0
+2025/04/28 (19:26:27) | INFO: Logger set to DEBUG
+2025/04/28 (19:26:27) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/28 (19:26:27) | INFO: Running on /dev/pts/4
+2025/04/28 (19:26:27) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/28 (19:26:27) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/28 (19:26:27) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/28 (19:26:27) | DEBUG: Shared::init() : Initialized.
+2025/04/28 (19:26:27) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/28 (22:09:28) | ===> btop++ v.1.4.0
+2025/04/28 (22:09:28) | INFO: Logger set to DEBUG
+2025/04/28 (22:09:28) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/28 (22:09:28) | INFO: Running on /dev/pts/2
+2025/04/28 (22:09:28) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/28 (22:09:28) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/28 (22:09:28) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/28 (22:09:28) | DEBUG: Shared::init() : Initialized.
+2025/04/28 (22:09:28) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/28 (22:12:02) | ===> btop++ v.1.4.0
+2025/04/28 (22:12:02) | INFO: Logger set to DEBUG
+2025/04/28 (22:12:02) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/28 (22:12:02) | INFO: Running on /dev/pts/1
+2025/04/28 (22:12:02) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/28 (22:12:02) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/28 (22:12:02) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/28 (22:12:02) | DEBUG: Shared::init() : Initialized.
+2025/04/28 (22:12:02) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/04/30 (10:08:24) | ===> btop++ v.1.4.0
+2025/04/30 (10:08:24) | INFO: Logger set to DEBUG
+2025/04/30 (10:08:24) | DEBUG: Using locale pt_BR.UTF-8
+2025/04/30 (10:08:24) | INFO: Running on /dev/pts/3
+2025/04/30 (10:08:24) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/04/30 (10:08:24) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/04/30 (10:08:24) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/30 (10:08:24) | DEBUG: Shared::init() : Initialized.
+2025/04/30 (10:08:24) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/04/30 (10:08:32) | INFO: Quitting! Runtime: 00:00:08
+
+2025/05/02 (15:02:57) | ===> btop++ v.1.4.0
+2025/05/02 (15:02:57) | INFO: Logger set to DEBUG
+2025/05/02 (15:02:57) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/02 (15:02:57) | INFO: Running on /dev/pts/0
+2025/05/02 (15:02:58) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/02 (15:02:58) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/02 (15:02:58) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/02 (15:02:58) | DEBUG: Shared::init() : Initialized.
+2025/05/02 (15:02:58) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/02 (15:03:10) | DEBUG: Writing new config file
+2025/05/02 (15:03:10) | INFO: Quitting! Runtime: 00:00:13
+
+2025/05/02 (16:28:18) | ===> btop++ v.1.4.0
+2025/05/02 (16:28:18) | INFO: Logger set to DEBUG
+2025/05/02 (16:28:18) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/02 (16:28:18) | INFO: Running on /dev/pts/3
+2025/05/02 (16:28:18) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/02 (16:28:18) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/02 (16:28:18) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/02 (16:28:18) | DEBUG: Shared::init() : Initialized.
+2025/05/02 (16:28:18) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/02 (20:14:37) | ===> btop++ v.1.4.0
+2025/05/02 (20:14:37) | INFO: Logger set to DEBUG
+2025/05/02 (20:14:37) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/02 (20:14:37) | INFO: Running on /dev/pts/3
+2025/05/02 (20:14:37) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/02 (20:14:37) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/02 (20:14:37) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/02 (20:14:37) | DEBUG: Shared::init() : Initialized.
+2025/05/02 (20:14:37) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/02 (20:14:42) | WARNING: Failed to join _runner thread on exit!
+2025/05/02 (20:14:42) | INFO: Quitting! Runtime: 00:00:05
+
+2025/05/02 (20:20:03) | ===> btop++ v.1.4.0
+2025/05/02 (20:20:03) | INFO: Logger set to DEBUG
+2025/05/02 (20:20:03) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/02 (20:20:03) | INFO: Running on /dev/pts/3
+2025/05/02 (20:20:03) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/02 (20:20:03) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/02 (20:20:03) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/02 (20:20:03) | DEBUG: Shared::init() : Initialized.
+2025/05/02 (20:20:03) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/02 (20:20:12) | DEBUG: Writing new config file
+2025/05/02 (20:20:12) | INFO: Quitting! Runtime: 00:00:09
+
+2025/05/02 (21:27:57) | ===> btop++ v.1.4.0
+2025/05/02 (21:27:57) | INFO: Logger set to DEBUG
+2025/05/02 (21:27:57) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/02 (21:27:57) | INFO: Running on /dev/pts/3
+2025/05/02 (21:27:57) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/02 (21:27:57) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/02 (21:27:57) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/02 (21:27:57) | DEBUG: Shared::init() : Initialized.
+2025/05/02 (21:27:57) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/02 (21:30:20) | DEBUG: Writing new config file
+2025/05/02 (21:30:20) | INFO: Quitting! Runtime: 00:02:23
+
+2025/05/02 (21:34:23) | ===> btop++ v.1.4.0
+2025/05/02 (21:34:23) | INFO: Logger set to DEBUG
+2025/05/02 (21:34:23) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/02 (21:34:23) | INFO: Running on /dev/pts/3
+2025/05/02 (21:34:23) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/02 (21:34:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/02 (21:34:23) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/02 (21:34:23) | DEBUG: Shared::init() : Initialized.
+2025/05/02 (21:34:23) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/02 (21:34:31) | INFO: Quitting! Runtime: 00:00:08
+
+2025/05/03 (21:07:11) | ===> btop++ v.1.4.0
+2025/05/03 (21:07:11) | INFO: Logger set to DEBUG
+2025/05/03 (21:07:11) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/03 (21:07:11) | INFO: Running on /dev/pts/0
+2025/05/03 (21:07:11) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/03 (21:07:11) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/03 (21:07:11) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/03 (21:07:11) | DEBUG: Shared::init() : Initialized.
+2025/05/03 (21:07:11) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/03 (21:07:16) | INFO: Quitting! Runtime: 00:00:05
+
+2025/05/04 (12:41:36) | ===> btop++ v.1.4.0
+2025/05/04 (12:41:36) | INFO: Logger set to DEBUG
+2025/05/04 (12:41:36) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/04 (12:41:36) | INFO: Running on /dev/pts/1
+2025/05/04 (12:41:36) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/04 (12:41:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/04 (12:41:36) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/04 (12:41:36) | DEBUG: Shared::init() : Initialized.
+2025/05/04 (12:41:36) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/04 (12:41:43) | INFO: Quitting! Runtime: 00:00:07
+
+2025/05/04 (13:23:48) | ===> btop++ v.1.4.0
+2025/05/04 (13:23:48) | INFO: Logger set to DEBUG
+2025/05/04 (13:23:48) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/04 (13:23:48) | INFO: Running on /dev/pts/2
+2025/05/04 (13:23:48) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/04 (13:23:48) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/04 (13:23:48) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/04 (13:23:48) | DEBUG: Shared::init() : Initialized.
+2025/05/04 (13:23:48) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/04 (13:29:57) | ===> btop++ v.1.4.0
+2025/05/04 (13:29:57) | INFO: Logger set to DEBUG
+2025/05/04 (13:29:57) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/04 (13:29:57) | INFO: Running on /dev/pts/3
+2025/05/04 (13:29:57) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/04 (13:29:57) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/04 (13:29:57) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/04 (13:29:57) | DEBUG: Shared::init() : Initialized.
+2025/05/04 (13:29:57) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/04 (13:30:42) | DEBUG: Writing new config file
+2025/05/04 (13:30:42) | INFO: Quitting! Runtime: 00:00:45
+
+2025/05/04 (13:47:56) | ===> btop++ v.1.4.0
+2025/05/04 (13:47:56) | INFO: Logger set to DEBUG
+2025/05/04 (13:47:56) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/04 (13:47:56) | INFO: Running on /dev/pts/1
+2025/05/04 (13:47:56) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/04 (13:47:56) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/04 (13:47:56) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/04 (13:47:56) | DEBUG: Shared::init() : Initialized.
+2025/05/04 (13:47:56) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/04 (13:48:51) | ===> btop++ v.1.4.0
+2025/05/04 (13:48:51) | INFO: Logger set to DEBUG
+2025/05/04 (13:48:51) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/04 (13:48:51) | INFO: Running on /dev/pts/1
+2025/05/04 (13:48:51) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/04 (13:48:51) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/04 (13:48:51) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/04 (13:48:51) | DEBUG: Shared::init() : Initialized.
+2025/05/04 (13:48:51) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/04 (13:50:10) | DEBUG: Writing new config file
+2025/05/04 (13:50:10) | INFO: Quitting! Runtime: 00:01:19
+
+2025/05/04 (15:24:43) | ===> btop++ v.1.4.0
+2025/05/04 (15:24:43) | INFO: Logger set to DEBUG
+2025/05/04 (15:24:43) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/04 (15:24:43) | INFO: Running on /dev/pts/0
+2025/05/04 (15:24:43) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/04 (15:24:43) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/04 (15:24:43) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/04 (15:24:43) | DEBUG: Shared::init() : Initialized.
+2025/05/04 (15:24:43) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/05 (02:00:44) | ===> btop++ v.1.4.0
+2025/05/05 (02:00:44) | INFO: Logger set to DEBUG
+2025/05/05 (02:00:44) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/05 (02:00:44) | INFO: Running on /dev/pts/0
+2025/05/05 (02:00:44) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/05 (02:00:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/05 (02:00:44) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/05 (02:00:44) | DEBUG: Shared::init() : Initialized.
+2025/05/05 (02:00:44) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/06 (17:17:23) | ===> btop++ v.1.4.0
+2025/05/06 (17:17:23) | INFO: Logger set to DEBUG
+2025/05/06 (17:17:23) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/06 (17:17:23) | INFO: Running on /dev/pts/2
+2025/05/06 (17:17:23) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/06 (17:17:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/06 (17:17:23) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/06 (17:17:23) | DEBUG: Shared::init() : Initialized.
+2025/05/06 (17:17:23) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/06 (17:17:24) | INFO: Quitting! Runtime: 00:00:01
+
+2025/05/06 (17:17:36) | ===> btop++ v.1.4.0
+2025/05/06 (17:17:36) | INFO: Logger set to DEBUG
+2025/05/06 (17:17:36) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/06 (17:17:36) | INFO: Running on /dev/pts/2
+2025/05/06 (17:17:36) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/06 (17:17:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/06 (17:17:36) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/06 (17:17:36) | DEBUG: Shared::init() : Initialized.
+2025/05/06 (17:17:36) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/06 (17:17:37) | INFO: Quitting! Runtime: 00:00:01
+
+2025/05/06 (17:44:32) | ===> btop++ v.1.4.0
+2025/05/06 (17:44:32) | INFO: Logger set to DEBUG
+2025/05/06 (17:44:32) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/06 (17:44:32) | INFO: Running on /dev/pts/3
+2025/05/06 (17:44:32) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/06 (17:44:32) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/06 (17:44:32) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/06 (17:44:32) | DEBUG: Shared::init() : Initialized.
+2025/05/06 (17:44:32) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/07 (16:08:17) | ===> btop++ v.1.4.0
+2025/05/07 (16:08:17) | INFO: Logger set to DEBUG
+2025/05/07 (16:08:17) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/07 (16:08:17) | INFO: Running on /dev/pts/0
+2025/05/07 (16:08:17) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/07 (16:08:17) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/07 (16:08:17) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/07 (16:08:17) | DEBUG: Shared::init() : Initialized.
+2025/05/07 (16:08:17) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/07 (16:08:26) | ===> btop++ v.1.4.0
+2025/05/07 (16:08:26) | INFO: Logger set to DEBUG
+2025/05/07 (16:08:26) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/07 (16:08:26) | INFO: Running on /dev/pts/1
+2025/05/07 (16:08:26) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/07 (16:08:26) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/07 (16:08:26) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/07 (16:08:26) | DEBUG: Shared::init() : Initialized.
+2025/05/07 (16:08:26) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/07 (16:08:28) | INFO: Quitting! Runtime: 00:00:02
+
+2025/05/07 (16:08:34) | ===> btop++ v.1.4.0
+2025/05/07 (16:08:34) | INFO: Logger set to DEBUG
+2025/05/07 (16:08:34) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/07 (16:08:34) | INFO: Running on /dev/pts/0
+2025/05/07 (16:08:34) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/07 (16:08:34) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/07 (16:08:34) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/07 (16:08:34) | DEBUG: Shared::init() : Initialized.
+2025/05/07 (16:08:34) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/07 (16:08:34) | INFO: Quitting! Runtime: 00:00:00
+
+2025/05/08 (13:25:26) | ===> btop++ v.1.4.0
+2025/05/08 (13:25:26) | INFO: Logger set to DEBUG
+2025/05/08 (13:25:26) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/08 (13:25:26) | INFO: Running on /dev/pts/0
+2025/05/08 (13:25:27) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/08 (13:25:27) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/08 (13:25:27) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/08 (13:25:27) | DEBUG: Shared::init() : Initialized.
+2025/05/08 (13:25:27) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/08 (13:25:35) | ===> btop++ v.1.4.0
+2025/05/08 (13:25:35) | INFO: Logger set to DEBUG
+2025/05/08 (13:25:35) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/08 (13:25:35) | INFO: Running on /dev/pts/0
+2025/05/08 (13:25:35) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/08 (13:25:35) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/08 (13:25:35) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/08 (13:25:35) | DEBUG: Shared::init() : Initialized.
+2025/05/08 (13:25:35) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/08 (14:52:44) | ===> btop++ v.1.4.0
+2025/05/08 (14:52:44) | INFO: Logger set to DEBUG
+2025/05/08 (14:52:44) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/08 (14:52:44) | INFO: Running on /dev/pts/0
+2025/05/08 (14:52:44) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/08 (14:52:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/08 (14:52:44) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/08 (14:52:44) | DEBUG: Shared::init() : Initialized.
+2025/05/08 (14:52:44) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+
+2025/05/08 (14:52:50) | ===> btop++ v.1.4.0
+2025/05/08 (14:52:50) | INFO: Logger set to DEBUG
+2025/05/08 (14:52:50) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/08 (14:52:50) | INFO: Running on /dev/pts/0
+2025/05/08 (14:52:50) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/08 (14:52:50) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/08 (14:52:50) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/08 (14:52:50) | DEBUG: Shared::init() : Initialized.
+2025/05/08 (14:52:50) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/08 (14:52:55) | INFO: Quitting! Runtime: 00:00:05
+
+2025/05/12 (12:56:54) | ===> btop++ v.1.4.0
+2025/05/12 (12:56:54) | INFO: Logger set to DEBUG
+2025/05/12 (12:56:54) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/12 (12:56:54) | INFO: Running on /dev/pts/2
+2025/05/12 (12:56:54) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/12 (12:56:54) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/12 (12:56:54) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/12 (12:56:54) | DEBUG: Shared::init() : Initialized.
+2025/05/12 (12:56:54) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/12 (12:57:06) | INFO: Quitting! Runtime: 00:00:12
+
+2025/05/13 (09:49:40) | ===> btop++ v.1.4.0
+2025/05/13 (09:49:40) | INFO: Logger set to DEBUG
+2025/05/13 (09:49:40) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/13 (09:49:40) | INFO: Running on /dev/pts/2
+2025/05/13 (09:49:40) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/13 (09:49:40) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/13 (09:49:40) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/13 (09:49:40) | DEBUG: Shared::init() : Initialized.
+2025/05/13 (09:49:40) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/13 (09:49:48) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/13 (09:49:50) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/13 (09:49:56) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/13 (09:50:25) | INFO: Logger set to INFO
+2025/05/13 (09:50:26) | INFO: Logger set to DEBUG
+2025/05/13 (09:50:30) | DEBUG: Loading theme file: /usr/share/btop/themes/matcha-dark-sea.theme
+2025/05/13 (09:50:31) | DEBUG: Loading theme file: /usr/share/btop/themes/paper.theme
+2025/05/13 (09:50:32) | DEBUG: Loading theme file: /usr/share/btop/themes/kyli0x.theme
+2025/05/13 (09:50:33) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark_v2.theme
+2025/05/13 (09:50:34) | DEBUG: Loading theme file: /usr/share/btop/themes/everforest-dark-hard.theme
+2025/05/13 (09:50:35) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_light.theme
+2025/05/13 (09:50:36) | DEBUG: Loading theme file: /usr/share/btop/themes/ayu.theme
+2025/05/13 (09:50:36) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_material_dark.theme
+2025/05/13 (09:50:37) | DEBUG: Loading theme file: /usr/share/btop/themes/solarized_dark.theme
+2025/05/13 (09:50:38) | DEBUG: Loading theme file: /usr/share/btop/themes/night-owl.theme
+2025/05/13 (09:50:41) | DEBUG: Loading theme file: /usr/share/btop/themes/adapta.theme
+2025/05/13 (09:50:41) | DEBUG: Loading theme file: /usr/share/btop/themes/dusklight.theme
+2025/05/13 (09:50:42) | DEBUG: Loading theme file: /usr/share/btop/themes/flat-remix-light.theme
+2025/05/13 (09:50:43) | DEBUG: Loading theme file: /usr/share/btop/themes/solarized_light.theme
+2025/05/13 (09:50:44) | DEBUG: Loading theme file: /usr/share/btop/themes/phoenix-night.theme
+2025/05/13 (09:50:47) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+2025/05/13 (09:50:48) | DEBUG: Loading theme file: /usr/share/btop/themes/nord.theme
+2025/05/13 (09:50:48) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+2025/05/13 (09:50:51) | DEBUG: Loading theme file: /usr/share/btop/themes/nord.theme
+2025/05/13 (09:50:51) | DEBUG: Loading theme file: /usr/share/btop/themes/tomorrow-night.theme
+2025/05/13 (09:50:52) | DEBUG: Loading theme file: /usr/share/btop/themes/adwaita.theme
+2025/05/13 (09:50:53) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/13 (09:50:54) | DEBUG: Loading theme file: /usr/share/btop/themes/greyscale.theme
+2025/05/13 (09:50:54) | DEBUG: Loading theme file: /usr/share/btop/themes/onedark.theme
+2025/05/13 (09:50:55) | DEBUG: Loading theme file: /usr/share/btop/themes/dracula.theme
+2025/05/13 (09:50:55) | DEBUG: Loading theme file: /usr/share/btop/themes/whiteout.theme
+2025/05/13 (09:50:57) | DEBUG: Loading theme file: /usr/share/btop/themes/flat-remix.theme
+2025/05/13 (09:50:58) | DEBUG: Loading theme file: /home/poisnada/.config/btop/themes/tokyo-storm.theme
+2025/05/13 (09:50:59) | DEBUG: Loading theme file: /home/poisnada/.config/btop/themes/tokyo-night.theme
+2025/05/13 (09:50:59) | DEBUG: Loading theme file: /home/poisnada/.config/btop/themes/catppuccin_latte.theme
+2025/05/13 (09:51:00) | DEBUG: Loading theme file: /home/poisnada/.config/btop/themes/catppuccin_frappe.theme
+2025/05/13 (09:51:00) | DEBUG: Loading theme file: /home/poisnada/.config/btop/themes/catppuccin_macchiato.theme
+2025/05/13 (09:51:01) | DEBUG: Loading theme file: /home/poisnada/.config/btop/themes/catppuccin_mocha.theme
+2025/05/13 (09:51:01) | DEBUG: Loading theme file: /usr/share/btop/themes/tokyo-storm.theme
+2025/05/13 (09:51:02) | DEBUG: Loading theme file: /usr/share/btop/themes/elementarish.theme
+2025/05/13 (09:51:03) | DEBUG: Loading theme file: /usr/share/btop/themes/horizon.theme
+2025/05/13 (09:51:04) | DEBUG: Loading theme file: /usr/share/btop/themes/everforest-dark-medium.theme
+2025/05/13 (09:51:04) | DEBUG: Loading theme file: /usr/share/btop/themes/tokyo-night.theme
+2025/05/13 (09:51:05) | DEBUG: Loading theme file: /usr/share/btop/themes/monokai.theme
+2025/05/13 (09:51:06) | DEBUG: Loading theme file: /usr/share/btop/themes/matcha-dark-sea.theme
+2025/05/13 (09:51:08) | DEBUG: Loading theme file: /usr/share/btop/themes/paper.theme
+2025/05/13 (09:51:08) | DEBUG: Loading theme file: /usr/share/btop/themes/kyli0x.theme
+2025/05/13 (09:51:10) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark_v2.theme
+2025/05/13 (09:51:11) | DEBUG: Loading theme file: /usr/share/btop/themes/everforest-dark-hard.theme
+2025/05/13 (09:51:11) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_light.theme
+2025/05/13 (09:51:12) | DEBUG: Loading theme file: /usr/share/btop/themes/ayu.theme
+2025/05/13 (09:51:12) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_material_dark.theme
+2025/05/13 (09:51:12) | DEBUG: Loading theme file: /usr/share/btop/themes/solarized_dark.theme
+2025/05/13 (09:51:13) | DEBUG: Loading theme file: /usr/share/btop/themes/night-owl.theme
+2025/05/13 (09:51:13) | DEBUG: Loading theme file: /usr/share/btop/themes/adapta.theme
+2025/05/13 (09:51:13) | DEBUG: Loading theme file: /usr/share/btop/themes/dusklight.theme
+2025/05/13 (09:51:14) | DEBUG: Loading theme file: /usr/share/btop/themes/flat-remix-light.theme
+2025/05/13 (09:51:14) | DEBUG: Loading theme file: /usr/share/btop/themes/solarized_light.theme
+2025/05/13 (09:51:15) | DEBUG: Loading theme file: /usr/share/btop/themes/phoenix-night.theme
+2025/05/13 (09:51:17) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+2025/05/13 (09:52:06) | DEBUG: Writing new config file
+2025/05/13 (09:52:06) | INFO: Quitting! Runtime: 00:02:26
+
+2025/05/13 (09:52:14) | ===> btop++ v.1.4.0
+2025/05/13 (09:52:14) | INFO: Logger set to DEBUG
+2025/05/13 (09:52:14) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/13 (09:52:14) | INFO: Running on /dev/pts/2
+2025/05/13 (09:52:14) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/13 (09:52:14) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/13 (09:52:14) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/13 (09:52:14) | DEBUG: Shared::init() : Initialized.
+2025/05/13 (09:52:14) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+2025/05/13 (09:52:15) | INFO: Quitting! Runtime: 00:00:01
+
+2025/05/13 (12:23:39) | ===> btop++ v.1.4.0
+2025/05/13 (12:23:39) | INFO: Logger set to DEBUG
+2025/05/13 (12:23:39) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/13 (12:23:39) | INFO: Running on /dev/pts/1
+2025/05/13 (12:23:39) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/13 (12:23:39) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/13 (12:23:39) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/13 (12:23:39) | DEBUG: Shared::init() : Initialized.
+2025/05/13 (12:23:39) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+
+2025/05/14 (11:27:38) | ===> btop++ v.1.4.0
+2025/05/14 (11:27:38) | INFO: Logger set to DEBUG
+2025/05/14 (11:27:38) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/14 (11:27:38) | INFO: Running on /dev/pts/2
+2025/05/14 (11:27:38) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/14 (11:27:38) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/14 (11:27:38) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/14 (11:27:38) | DEBUG: Shared::init() : Initialized.
+2025/05/14 (11:27:38) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+2025/05/14 (11:29:46) | DEBUG: Loading theme file: /usr/share/btop/themes/nord.theme
+2025/05/14 (11:29:46) | DEBUG: Loading theme file: /usr/share/btop/themes/tomorrow-night.theme
+2025/05/14 (11:29:47) | DEBUG: Loading theme file: /usr/share/btop/themes/nord.theme
+
+2025/05/14 (11:56:56) | ===> btop++ v.1.4.0
+2025/05/14 (11:56:56) | INFO: Logger set to DEBUG
+2025/05/14 (11:56:56) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/14 (11:56:56) | INFO: Running on /dev/pts/2
+2025/05/14 (11:56:56) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/14 (11:56:56) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/14 (11:56:56) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/14 (11:56:56) | DEBUG: Shared::init() : Initialized.
+2025/05/14 (11:56:56) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+
+2025/05/18 (12:12:19) | ===> btop++ v.1.4.0
+2025/05/18 (12:12:19) | INFO: Logger set to DEBUG
+2025/05/18 (12:12:19) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/18 (12:12:19) | INFO: Running on /dev/pts/2
+2025/05/18 (12:12:19) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/18 (12:12:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/18 (12:12:19) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/18 (12:12:19) | DEBUG: Shared::init() : Initialized.
+2025/05/18 (12:12:19) | DEBUG: Loading theme file: /usr/share/btop/themes/HotPurpleTrafficLight.theme
+2025/05/18 (12:12:27) | DEBUG: Loading theme file: /usr/share/btop/themes/nord.theme
+2025/05/18 (12:12:27) | DEBUG: Loading theme file: /usr/share/btop/themes/tomorrow-night.theme
+2025/05/18 (12:12:28) | DEBUG: Loading theme file: /usr/share/btop/themes/adwaita.theme
+2025/05/18 (12:12:28) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/18 (12:12:29) | DEBUG: Loading theme file: /usr/share/btop/themes/adwaita.theme
+2025/05/18 (12:12:38) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/18 (12:12:39) | DEBUG: Loading theme file: /usr/share/btop/themes/greyscale.theme
+2025/05/18 (12:12:39) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/18 (12:21:14) | DEBUG: Writing new config file
+2025/05/18 (12:21:14) | INFO: Quitting! Runtime: 00:08:55
+
+2025/05/18 (12:38:19) | ===> btop++ v.1.4.0
+2025/05/18 (12:38:19) | INFO: Logger set to DEBUG
+2025/05/18 (12:38:19) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/18 (12:38:19) | INFO: Running on /dev/pts/4
+2025/05/18 (12:38:19) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/18 (12:38:19) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/18 (12:38:19) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/18 (12:38:19) | DEBUG: Shared::init() : Initialized.
+2025/05/18 (12:38:19) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/18 (12:41:13) | DEBUG: Writing new config file
+2025/05/18 (12:41:13) | INFO: Quitting! Runtime: 00:02:54
+
+2025/05/19 (14:06:39) | ===> btop++ v.1.4.0
+2025/05/19 (14:06:39) | INFO: Logger set to DEBUG
+2025/05/19 (14:06:39) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/19 (14:06:39) | INFO: Running on /dev/pts/2
+2025/05/19 (14:06:39) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/19 (14:06:39) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/19 (14:06:39) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/19 (14:06:39) | DEBUG: Shared::init() : Initialized.
+2025/05/19 (14:06:39) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/19 (14:06:52) | INFO: Quitting! Runtime: 00:00:13
+
+2025/05/19 (20:53:03) | ===> btop++ v.1.4.0
+2025/05/19 (20:53:03) | INFO: Logger set to DEBUG
+2025/05/19 (20:53:03) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/19 (20:53:03) | INFO: Running on /dev/pts/1
+2025/05/19 (20:53:03) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/19 (20:53:03) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/19 (20:53:03) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/19 (20:53:03) | DEBUG: Shared::init() : Initialized.
+2025/05/19 (20:53:03) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/19 (20:54:43) | DEBUG: Writing new config file
+2025/05/19 (20:54:43) | INFO: Quitting! Runtime: 00:01:40
+
+2025/05/19 (22:20:17) | ===> btop++ v.1.4.0
+2025/05/19 (22:20:17) | INFO: Logger set to DEBUG
+2025/05/19 (22:20:17) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/19 (22:20:17) | INFO: Running on /dev/pts/1
+2025/05/19 (22:20:17) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/19 (22:20:17) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/19 (22:20:17) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/19 (22:20:17) | DEBUG: Shared::init() : Initialized.
+2025/05/19 (22:20:17) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/19 (22:22:16) | INFO: Quitting! Runtime: 00:01:59
+
+2025/05/19 (22:23:45) | ===> btop++ v.1.4.0
+2025/05/19 (22:23:45) | INFO: Logger set to DEBUG
+2025/05/19 (22:23:45) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/19 (22:23:45) | INFO: Running on /dev/pts/1
+2025/05/19 (22:23:45) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/19 (22:23:45) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/19 (22:23:45) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/19 (22:23:45) | DEBUG: Shared::init() : Initialized.
+2025/05/19 (22:23:45) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/05/19 (22:23:50) | INFO: Quitting! Runtime: 00:00:05
+
+2025/05/19 (22:59:40) | ===> btop++ v.1.4.0
+2025/05/19 (22:59:40) | INFO: Logger set to DEBUG
+2025/05/19 (22:59:40) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/19 (22:59:40) | INFO: Running on /dev/pts/1
+2025/05/19 (22:59:40) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/19 (22:59:40) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/19 (22:59:40) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/19 (22:59:40) | DEBUG: Shared::init() : Initialized.
+2025/05/19 (22:59:40) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+
+2025/05/21 (13:23:12) | ===> btop++ v.1.4.0
+2025/05/21 (13:23:12) | INFO: Logger set to DEBUG
+2025/05/21 (13:23:12) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/21 (13:23:12) | INFO: Running on /dev/pts/1
+2025/05/21 (13:23:12) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/21 (13:23:12) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/21 (13:23:12) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/21 (13:23:12) | DEBUG: Shared::init() : Initialized.
+2025/05/21 (13:23:12) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+
+2025/05/22 (11:18:38) | ===> btop++ v.1.4.0
+2025/05/22 (11:18:38) | INFO: Logger set to DEBUG
+2025/05/22 (11:18:38) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/22 (11:18:38) | INFO: Running on /dev/pts/4
+2025/05/22 (11:18:38) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/22 (11:18:38) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/22 (11:18:38) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/22 (11:18:38) | DEBUG: Shared::init() : Initialized.
+2025/05/22 (11:18:38) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+
+2025/05/22 (11:19:07) | ===> btop++ v.1.4.0
+2025/05/22 (11:19:07) | INFO: Logger set to DEBUG
+2025/05/22 (11:19:07) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/22 (11:19:07) | INFO: Running on /dev/pts/4
+2025/05/22 (11:19:07) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/22 (11:19:07) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/22 (11:19:07) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/22 (11:19:08) | DEBUG: Shared::init() : Initialized.
+2025/05/22 (11:19:08) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+
+2025/05/24 (10:55:58) | ===> btop++ v.1.4.0
+2025/05/24 (10:55:58) | INFO: Logger set to DEBUG
+2025/05/24 (10:55:58) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/24 (10:55:58) | INFO: Running on /dev/pts/1
+2025/05/24 (10:55:58) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/24 (10:55:58) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/24 (10:55:58) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/24 (10:55:58) | DEBUG: Shared::init() : Initialized.
+2025/05/24 (10:55:58) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+
+2025/05/24 (17:49:08) | ===> btop++ v.1.4.0
+2025/05/24 (17:49:08) | INFO: Logger set to DEBUG
+2025/05/24 (17:49:08) | DEBUG: Using locale pt_BR.UTF-8
+2025/05/24 (17:49:08) | INFO: Running on /dev/pts/1
+2025/05/24 (17:49:08) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/05/24 (17:49:08) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/05/24 (17:49:08) | WARNING: Intel GPU: Failed to initialize PMU
+2025/05/24 (17:49:08) | DEBUG: Shared::init() : Initialized.
+2025/05/24 (17:49:08) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+
+2025/06/09 (19:37:56) | ===> btop++ v.1.4.0
+2025/06/09 (19:37:56) | INFO: Logger set to DEBUG
+2025/06/09 (19:37:56) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/09 (19:37:56) | INFO: Running on /dev/pts/3
+2025/06/09 (19:37:56) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/09 (19:37:56) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/09 (19:37:56) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/09 (19:37:56) | DEBUG: Shared::init() : Initialized.
+2025/06/09 (19:37:56) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/09 (19:38:18) | INFO: Quitting! Runtime: 00:00:22
+
+2025/06/09 (19:43:06) | ===> btop++ v.1.4.0
+2025/06/09 (19:43:06) | INFO: Logger set to DEBUG
+2025/06/09 (19:43:06) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/09 (19:43:06) | INFO: Running on /dev/pts/0
+2025/06/09 (19:43:06) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/09 (19:43:06) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/09 (19:43:06) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/09 (19:43:06) | DEBUG: Shared::init() : Initialized.
+2025/06/09 (19:43:06) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/09 (19:43:19) | INFO: Quitting! Runtime: 00:00:13
+
+2025/06/10 (02:55:51) | ===> btop++ v.1.4.0
+2025/06/10 (02:55:51) | INFO: Logger set to DEBUG
+2025/06/10 (02:55:51) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/10 (02:55:51) | INFO: Running on /dev/pts/3
+2025/06/10 (02:55:51) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/10 (02:55:51) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/10 (02:55:51) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/10 (02:55:51) | DEBUG: Shared::init() : Initialized.
+2025/06/10 (02:55:51) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/10 (02:56:17) | INFO: Quitting! Runtime: 00:00:26
+
+2025/06/10 (20:36:23) | ===> btop++ v.1.4.0
+2025/06/10 (20:36:23) | INFO: Logger set to DEBUG
+2025/06/10 (20:36:23) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/10 (20:36:23) | INFO: Running on /dev/pts/1
+2025/06/10 (20:36:23) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/10 (20:36:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/10 (20:36:23) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/10 (20:36:23) | DEBUG: Shared::init() : Initialized.
+2025/06/10 (20:36:23) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/10 (20:36:32) | INFO: Quitting! Runtime: 00:00:09
+
+2025/06/11 (16:51:12) | ===> btop++ v.1.4.0
+2025/06/11 (16:51:12) | INFO: Logger set to DEBUG
+2025/06/11 (16:51:12) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/11 (16:51:12) | INFO: Running on /dev/pts/5
+2025/06/11 (16:51:12) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/11 (16:51:12) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/11 (16:51:12) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/11 (16:51:12) | DEBUG: Shared::init() : Initialized.
+2025/06/11 (16:51:12) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/11 (17:02:24) | INFO: Quitting! Runtime: 00:11:12
+
+2025/06/11 (17:02:34) | ===> btop++ v.1.4.0
+2025/06/11 (17:02:34) | INFO: Logger set to DEBUG
+2025/06/11 (17:02:34) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/11 (17:02:34) | INFO: Running on /dev/pts/9
+2025/06/11 (17:02:34) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/11 (17:02:34) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/11 (17:02:34) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/11 (17:02:34) | DEBUG: Shared::init() : Initialized.
+2025/06/11 (17:02:34) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/11 (17:03:02) | INFO: Quitting! Runtime: 00:00:28
+
+2025/06/11 (17:20:26) | ===> btop++ v.1.4.0
+2025/06/11 (17:20:26) | INFO: Logger set to DEBUG
+2025/06/11 (17:20:26) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/11 (17:20:26) | INFO: Running on /dev/pts/3
+2025/06/11 (17:20:26) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/11 (17:20:26) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/11 (17:20:26) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/11 (17:20:26) | DEBUG: Shared::init() : Initialized.
+2025/06/11 (17:20:26) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/11 (17:20:38) | INFO: Quitting! Runtime: 00:00:12
+
+2025/06/11 (17:28:35) | ===> btop++ v.1.4.0
+2025/06/11 (17:28:35) | INFO: Logger set to DEBUG
+2025/06/11 (17:28:35) | DEBUG: Using locale pt_BR.UTF-8
+2025/06/11 (17:28:35) | INFO: Running on /dev/pts/1
+2025/06/11 (17:28:35) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2025/06/11 (17:28:35) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+2025/06/11 (17:28:35) | WARNING: Intel GPU: Failed to initialize PMU
+2025/06/11 (17:28:35) | DEBUG: Shared::init() : Initialized.
+2025/06/11 (17:28:35) | DEBUG: Loading theme file: /usr/share/btop/themes/gruvbox_dark.theme
+2025/06/11 (17:28:39) | INFO: Quitting! Runtime: 00:00:04
