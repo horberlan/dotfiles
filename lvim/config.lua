@@ -3,7 +3,23 @@ lvim.colorscheme = "nightfox"
 lvim.builtin.lualine.options.theme = "dracula"
 lvim.transparent_window = false
 lvim.plugins = {
-  { 'echasnovski/mini.nvim',      version = '*' },
+  { "nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate" },
+  {
+    'LhKipp/nvim-nu',
+    build = ':TSInstall nu',
+    opts = {}
+  },
+  {
+    'topaxi/pipeline.nvim',
+    keys = {
+      { '<leader>ci', '<cmd>Pipeline<cr>', desc = 'Open pipeline.nvim' },
+    },
+    -- optional, you can also install and use `yq` instead.
+    build = 'make',
+    ---@type pipeline.Config
+    opts = {},
+  },
+  { 'echasnovski/mini.nvim',           version = '*' },
   { "norcalli/nvim-colorizer.lua" },
   { "EdenEast/nightfox.nvim" },
   {
@@ -66,7 +82,16 @@ lvim.plugins = {
       vim.keymap.set("n", "<Leader>ff", file, { silent = true })
     end,
   },
-
+  -- {
+  --     "nvzone/floaterm",
+  --     dependencies = "nvzone/volt",
+  --     opts = {
+  --       terminals = {
+  --         { name = "poisnada", cmd = "neofetch" },
+  --       },
+  --     },
+  --     cmd = "FloatermToggle",
+  -- },
   -- Glow: renderizar markdown
   {
     "ellisonleao/glow.nvim",
