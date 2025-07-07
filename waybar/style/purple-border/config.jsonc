@@ -1,0 +1,35 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "width": 1900,
+    "spacing": 4,
+    "modules-left": [
+        "custom/arch",
+        "cpu",
+        "memory",
+        "temperature",
+        "battery",
+        "power-profiles-daemon",
+        "custom/cava_mviz",
+        "mpris"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "idle_inhibitor",
+        "pulseaudio",
+        "backlight",
+        "network#speed",
+        "network",
+        "bluetooth",
+        "hyprland/language",
+        "tray",
+        "custom/swaync",
+        "clock"
+    ],
+    "include": [
+        "~/.config/waybar/style/purple-border/modules.jsonc"
+    ]
+}

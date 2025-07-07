@@ -1,0 +1,39 @@
+{
+"include": [
+  "$HOME/.config/waybar/style/light/Modules/Modules",
+  "$HOME/.config/waybar/style/light/Modules/ModulesWorkspaces",
+  "$HOME/.config/waybar/style/Modules/ModulesCustom",
+  "$HOME/.config/waybar/style/Modules/ModulesGroups"
+  ],
+"layer": "top",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"fixed-center": true,
+"ipc": true,
+"spacing": 6,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"custom/menu",
+	"custom/separator#blank_2", 
+	"hyprland/workspaces#roman",
+	"custom/separator#blank_2",
+	"mpris",
+	"group/notify",
+	"tray"
+	],
+"modules-center": [
+	"clock",
+	"idle_inhibitor"
+	],
+"modules-right": [
+	"group/mobo_drawer",
+	"custom/separator#blank_2",
+	"group/laptop",
+	"group/audio",
+	"custom/separator#blank_2" 
+	]
+}

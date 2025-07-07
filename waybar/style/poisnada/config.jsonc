@@ -1,5 +1,5 @@
 {
-  "name": "float",
+  // "name": "float",
   "layer": "top",
   "gtk-layer-shell": true,
   "margin-left": 6,
@@ -8,12 +8,12 @@
   "margin-right": 6,
   "spacing": 0,
   "position": "bottom",
-  "mode": "dock",
+  // "mode": "dock",
   "modules-left": [
     "custom/launcher",
     "cpu",
-    "memory",
-    "wlr/taskbar"
+    "memory"
+    // "wlr/taskbar"
     // "custom/wayves"
   ],
   "modules-center": [
@@ -51,9 +51,9 @@
     "max-length": 10
   },
   "custom/local_temperature": {
-    "exec": "~/.config/waybar/scripts/waybar-wttr.py | jq -r '.text'",
+    "exec": "curl 'wttr.in/cajazeiras-pb?format=%c%t'",
     "format": "{}",
-    "on-click": "kitty --start-as=fullscreen --title weather-prediction --hold sh -c '~/.config/waybar/scripts/waybar-wttr.py | jq -r '.tooltip' && ~/.config/waybar/scripts/plot-wttr.sh'"
+    "on-click": "kitty --start-as=fullscreen --title weather-prediction --hold sh -c 'curl wttr.in/areia-pb && curl v2.wttr.in/areia-pb'"
   },
   "custom/wayves": {
     "format": "{}",
