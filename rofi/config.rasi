@@ -2,7 +2,6 @@
 /* Main Config 1440p */
 
 @import "~/.config/rofi/master-config.rasi" 
-
 /* ---- Window ---- */
 window {
     width:	60%;

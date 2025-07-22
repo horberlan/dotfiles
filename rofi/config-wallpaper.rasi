@@ -2,6 +2,7 @@
 /* Main Config (wallpaper) */
 
 @import "~/.config/rofi/master-config.rasi"  
+// @import "~/.cache/wal/colors-rofi-dark"
 
 /* ---- Configuration ---- */ 
 configuration {
