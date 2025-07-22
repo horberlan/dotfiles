@@ -4,6 +4,7 @@
     "height": 36,
     "width": 1900,
     "spacing": 4,
+	"margin-top": 3,
     "modules-left": [
         "custom/arch",
         "cpu",
@@ -26,7 +27,7 @@
         "bluetooth",
         "hyprland/language",
         "tray",
-        "custom/swaync",
+        // "custom/swaync",
         "clock"
     ],
     "include": [
