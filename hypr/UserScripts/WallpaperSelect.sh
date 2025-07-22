@@ -31,7 +31,7 @@ rofi_command="rofi -i -show -dmenu -config ~/.config/rofi/config-wallpaper.rasi"
 
 # Sorting Wallpapers
 menu() {
-  mapfile -t sorted_options < <(printf "%s\n" "${PICS[@]}" | sort)
+  IFS=$'\n' sorted_options=($(sort <<<"${PICS[*]}"))
   printf "%s\x00icon\x1f%s\n" "$RANDOM_PIC_NAME" "$RANDOM_PIC"
   for pic_path in "${sorted_options[@]}"; do
     pic_name=$(basename "$pic_path")
@@ -51,15 +51,35 @@ apply_colors_to_terminals() {
   done
 }
 
-# Apply wallpaper and colorscheme
+# Apply wallpaper, colorscheme, and update Xava
 apply_wallpaper_and_colors() {
   local image="$1"
   # Set wallpaper with swww
+  echo "Setting wallpaper: $image"
   swww img -o "$focused_monitor" "$image" $SWWW_PARAMS || { echo "swww failed"; exit 1; }
   # Generate colorscheme with wal
+  echo "Generating colorscheme with wal"
   source "$HOME/envname/bin/activate"
   wal -i "$image" --cols16 -n --vte || { echo "wal failed for $image"; exit 1; }
-  # Apply to all running terminals
+  # Update and reload Xava
+  echo "Updating Xava"
+  sh "$HOME/.config/hypr/UserScripts/ReloadXava.sh" || { echo "ReloadXava.sh failed"; exit 1; }
+  # Apply colors to all running terminals
+  if pgrep "xava" > /dev/null; then
+  echo "Xava is already running. Reloading configuration..."
+  # You might need to send a signal to Xava to make it reload its config.
+  # Xava doesn't have a built-in reload command. A common way is to kill and restart.
+  # However, if it's already running, the user probably wants the new config to apply.
+  # For simplicity and to avoid interrupting ongoing audio visualization,
+  # we'll just inform the user that it's running.
+  # If a full restart is desired, uncomment the lines below.
+  killall xava
+  sleep 1 # Give Xava a moment to terminate
+  xava &>/dev/null &
+else
+  echo "Xava is not running. Starting a new instance..."
+fi
+  echo "Applying colors to terminals"
   apply_colors_to_terminals
 }
 
@@ -99,12 +119,14 @@ main() {
     fi
   fi
 
+  # Run refresh scripts only once after colors are applied
   sleep 1.5
   "$SCRIPTSDIR/WallustSwww.sh"
   sleep 0.5
   "$SCRIPTSDIR/Refresh.sh"
 }
 
+# Check if rofi is already running
 if pidof rofi > /dev/null; then
   pkill rofi
   sleep 1
