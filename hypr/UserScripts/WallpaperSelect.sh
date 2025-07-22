@@ -31,16 +31,10 @@ rofi_command="rofi -i -show -dmenu -config ~/.config/rofi/config-wallpaper.rasi"
 
 # Sorting Wallpapers
 menu() {
-  # Sort the PICS array
-  IFS=$'\n' sorted_options=($(sort <<<"${PICS[*]}"))
-  
-  # Place ". random" at the beginning with the random picture as an icon
+  mapfile -t sorted_options < <(printf "%s\n" "${PICS[@]}" | sort)
   printf "%s\x00icon\x1f%s\n" "$RANDOM_PIC_NAME" "$RANDOM_PIC"
-  
   for pic_path in "${sorted_options[@]}"; do
     pic_name=$(basename "$pic_path")
-    
-    # Displaying .gif to indicate animated images
     if [[ ! "$pic_name" =~ \.gif$ ]]; then
       printf "%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path"
     else
@@ -49,18 +43,35 @@ menu() {
   done
 }
 
-# initiate swww if not running
+# Apply colors to all running terminals
+apply_colors_to_terminals() {
+  # Replace 'xterm' with your terminal emulator (e.g., 'alacritty', 'kitty')
+  for pid in $(pidof ${TERM:-xterm}); do
+    cat ~/.cache/wal/sequences > /proc/$pid/fd/0 2>/dev/null
+  done
+}
+
+# Apply wallpaper and colorscheme
+apply_wallpaper_and_colors() {
+  local image="$1"
+  # Set wallpaper with swww
+  swww img -o "$focused_monitor" "$image" $SWWW_PARAMS || { echo "swww failed"; exit 1; }
+  # Generate colorscheme with wal
+  source "$HOME/envname/bin/activate"
+  wal -i "$image" --cols16 -n --vte || { echo "wal failed for $image"; exit 1; }
+  # Apply to all running terminals
+  apply_colors_to_terminals
+}
+
+# Initiate swww if not running
 swww query || swww-daemon --format xrgb
 
 # Choice of wallpapers
 main() {
   choice=$(menu | $rofi_command)
-  
-  # Trim any potential whitespace or hidden characters
   choice=$(echo "$choice" | xargs)
   RANDOM_PIC_NAME=$(echo "$RANDOM_PIC_NAME" | xargs)
 
-  # No choice case
   if [[ -z "$choice" ]]; then
     echo "No choice selected. Exiting."
     exit 0
@@ -68,44 +79,35 @@ main() {
 
   # Random choice case
   if [[ "$choice" == "$RANDOM_PIC_NAME" ]]; then
-	swww img -o "$focused_monitor" "$RANDOM_PIC" $SWWW_PARAMS;
-    sleep 1.5
-    "$SCRIPTSDIR/WallustSwww.sh"
-    sleep 0.5
-    "$SCRIPTSDIR/Refresh.sh"
-    exit 0
-  fi
-
-  # Find the index of the selected file
-  pic_index=-1
-  for i in "${!PICS[@]}"; do
-    filename=$(basename "${PICS[$i]}")
-    if [[ "$filename" == "$choice"* ]]; then
-      pic_index=$i
-      break
-    fi
-  done
-# swww query || swww-daemon --format xrgb && swww img -o $focused_monitor ${RANDOMPICS} $SWWW_PARAMS
-
-  if [[ $pic_index -ne -1 ]]; then
-    swww img -o "$focused_monitor" "${PICS[$pic_index]}" $SWWW_PARAMS
+    apply_wallpaper_and_colors "$RANDOM_PIC"
   else
-    echo "Image not found."
-    exit 1
+    # Find the index of the selected file
+    pic_index=-1
+    for i in "${!PICS[@]}"; do
+      filename=$(basename "${PICS[$i]}")
+      if [[ "$filename" == "$choice"* ]]; then
+        pic_index=$i
+        break
+      fi
+    done
+
+    if [[ $pic_index -ne -1 ]]; then
+      apply_wallpaper_and_colors "${PICS[$pic_index]}"
+    else
+      echo "Image not found."
+      exit 1
+    fi
   fi
+
+  sleep 1.5
+  "$SCRIPTSDIR/WallustSwww.sh"
+  sleep 0.5
+  "$SCRIPTSDIR/Refresh.sh"
 }
 
-# Check if rofi is already running
 if pidof rofi > /dev/null; then
   pkill rofi
-  sleep 1  # Allow some time for rofi to close
+  sleep 1
 fi
 
 main
-
-sleep 1.5
-"$SCRIPTSDIR/WallustSwww.sh"
-
-sleep 0.5
-"$SCRIPTSDIR/Refresh.sh"
-
