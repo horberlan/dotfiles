@@ -1,0 +1,193 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+@define-color base        @background;
+@define-color text        @foreground;
+@define-color main        @color13;
+@define-color highlight   @color4;
+@define-color accent      @color6;
+@define-color urgent      @color1;
+
+* {
+  font-family: JetBrains Mono Nerd Font;
+  font-size: 15px;
+}
+
+window#waybar {
+  background-color: alpha(@base, 0.4);
+  color: @text;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-top: 8px transparent;
+  border-radius: 10px;
+  margin: 16px 16px;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: alpha(@text, 0.6);
+  margin-right: 5px;
+}
+
+#workspaces button.active {
+  color: @highlight;
+}
+
+#workspaces button.focused {
+  color: @highlight;
+  background: @urgent;
+  border-radius: 10px;
+}
+
+#workspaces button.urgent {
+  color: @base;
+  background: @color2;
+  border-radius: 10px;
+}
+
+#workspaces button:hover {
+  background: @base;
+  color: @highlight;
+  border-radius: 10px;
+}
+
+#custom-power_profile,
+#custom-weather,
+#window,
+#clock,
+#taskbar,
+#battery,
+#wireplumber,
+#network,
+#cpu,
+#bluetooth,
+#memory,
+#workspaces,
+#idle_inhibitor,
+#tray,
+#custom-power-menu,
+#backlight {
+  background: alpha(@base, 0.5);
+  padding: 0px 10px;
+}
+
+#custom-launcher {
+  font-size: 1.5rem;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: @accent;
+  background: transparent;
+  text-shadow:
+    2px 0 #fff, -2px 0 #fff,
+    0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff,
+    1px -1px #fff, -1px 1px #fff;
+}
+
+#custom-wayves {
+  font-size: 1rem;
+  margin-left: 10px;
+  transition: none;
+  color: @highlight;
+}
+
+#custom-wayves_cat {
+  color: @urgent;
+  margin-right: 10px;
+}
+
+#memory {
+  color: @highlight;
+  border-radius: 0px 10px 10px 0px;
+  margin: 5px 10px 5px 0px;
+}
+
+#memory.critical {
+  color: @urgent;
+}
+
+#backlight {
+  color: @highlight;
+  border-radius: 10px 0px 0px 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+#taskbar {
+  border-radius: 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+#workspaces {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#window {
+  border-radius: 10px;
+  margin: 5px 60px;
+}
+
+#clock {
+  color: @highlight;
+  border-radius: 10px;
+  margin: 5px 10px 5px 5px;
+}
+
+#network {
+  color: @highlight;
+  border-radius: 10px 0px 0px 10px;
+  margin: 5px 0px;
+}
+
+#cpu {
+  color: @highlight;
+  border-radius: 10px 0px 0px 10px;
+  margin: 5px 0px 5px 10px;
+}
+
+#bluetooth {
+  color: @highlight;
+  border-radius: 0px 10px 10px 0px;
+  margin: 5px 10px 5px 0px;
+}
+
+#wireplumber {
+  color: @highlight;
+  margin: 5px 0px;
+}
+
+#battery {
+  color: @highlight;
+  margin: 5px 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#custom-local_temperature {
+  margin: 5px 10px;
+  border-right: 0px;
+  margin-left: 0px;
+  color: @highlight;
+}
+
+#custom-power-menu {
+  margin: 5px 5px 5px 10px;
+  border-radius: 10px;
+}
+
+#tray {
+  margin: 5px 0px;
+  border-radius: 10px;
+}
+
+#idle_inhibitor {
+  color: @highlight;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 5px 0px;
+}
