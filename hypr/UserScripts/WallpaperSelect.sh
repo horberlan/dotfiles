@@ -1,14 +1,10 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */ 
-# This script for selecting wallpapers (SUPER W)
 
 # WALLPAPERS PATH
 wallDIR="$HOME/Pictures/wallpapers"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
-# variables
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
-# swww transition config
 FPS=60
 TYPE="any"
 DURATION=1.5
@@ -35,11 +31,9 @@ menu() {
   printf "%s\x00icon\x1f%s\n" "$RANDOM_PIC_NAME" "$RANDOM_PIC"
   for pic_path in "${sorted_options[@]}"; do
     pic_name=$(basename "$pic_path")
-    if [[ ! "$pic_name" =~ \.gif$ ]]; then
-      printf "%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path"
-    else
-      printf "%s\n" "$pic_name"
-    fi
+    # CORREÇÃO: Removida a condição que excluía GIFs do preview
+    # Agora todos os arquivos (incluindo GIFs) terão preview de ícone
+    printf "%s\x00icon\x1f%s\n" "$(echo "$pic_name" | cut -d. -f1)" "$pic_path"
   done
 }
 
@@ -56,7 +50,7 @@ apply_wallpaper_and_colors() {
   local image="$1"
   # Set wallpaper with swww
   echo "Setting wallpaper: $image"
-  swww img -o "$focused_monitor" "$image" $SWWW_PARAMS || { echo "swww failed"; exit 1; }
+  swww img -o "$focused_monitor" "$image" "$SWWW_PARAMS" || { echo "swww failed"; exit 1; }
   # Generate colorscheme with wal
   echo "Generating colorscheme with wal"
   source "$HOME/envname/bin/activate"
