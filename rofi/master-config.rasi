@@ -19,8 +19,8 @@ configuration {
 	dpi:						1;
 }
 
-/* ---- Load wallust colors ---- */
-@theme "~/.config/rofi/wallust/colors-rofi.rasi"
+/* ---- Load pywall16 colors ---- */
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
 
 /* ---- Global Properties ---- */
 * {
