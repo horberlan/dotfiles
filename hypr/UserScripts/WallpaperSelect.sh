@@ -1,10 +1,14 @@
 #!/bin/bash
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */ 
+# This script for selecting wallpapers (SUPER W)
 
 # WALLPAPERS PATH
 wallDIR="$HOME/Pictures/wallpapers"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
+# variables
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
+# swww transition config
 FPS=60
 TYPE="any"
 DURATION=1.5
@@ -50,7 +54,7 @@ apply_wallpaper_and_colors() {
   local image="$1"
   # Set wallpaper with swww
   echo "Setting wallpaper: $image"
-  swww img -o "$focused_monitor" "$image" "$SWWW_PARAMS" || { echo "swww failed"; exit 1; }
+  swww img -o "$focused_monitor" "$image" $SWWW_PARAMS || { echo "swww failed"; exit 1; }
   # Generate colorscheme with wal
   echo "Generating colorscheme with wal"
   source "$HOME/envname/bin/activate"
