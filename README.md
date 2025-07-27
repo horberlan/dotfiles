@@ -1,12 +1,8 @@
 # Arch Linux Dotfiles Collection
 
-A comprehensive and professionally crafted collection of configuration files for Arch Linux, featuring a modern Hyprland-based desktop environment with dynamic theming capabilities. This repository provides a complete desktop setup optimized for productivity and visual appeal, utilizing pywal16 for seamless color scheme management across all applications.
-
 ## Preview
 
 ![Desktop Screenshot](https://i.ibb.co/s9yT3yfK/swappy-20250723-132522.png)
-
-**Modern Hyprland desktop environment with coordinated theming across all applications**
 
 ## Features and Overview
 
@@ -884,7 +880,7 @@ This interconnected design ensures visual consistency and functional integration
 ## Post-Installation Setup
 
 1. **Restart your session** or reboot
-2. **Initialize theming**: `wal --theme base16-default-dark`
+2. **Initialize theming**: `wal --theme random`
 3. **Configure monitors**: Edit `~/.config/hypr/UserConfigs/Monitors.conf`
 4. **Reload Hyprland**: `hyprctl reload`
 
