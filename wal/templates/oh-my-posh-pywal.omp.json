@@ -1,0 +1,159 @@
+{{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {{
+    "crystal-fg": "{color4}",
+    "cursor-fg": "{color10}", 
+    "elixir-fg": "{color5}",
+    "git-fg": "{color6}",
+    "main-bg": "{color0}",
+    "main-fg": "{color2}",
+    "node-fg": "{color3}",
+    "python-fg": "{color3}",
+    "status-fg": "{color1}",
+    "ytm-bg": "{color1}",
+    "ytm-fg": "{color15}",
+    "rust-fg": "{color8}",
+    "rust-bg": "{color7}",
+    "accent": "{color9}",
+    "warning": "{color11}",
+    "error": "{color9}"
+  }},
+  "console_title_template": "{{{{.Folder}}}} {{{{.Shell}}}}",
+  "blocks": [
+    {{
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {{
+          "properties": {{
+            "style": "mixed"
+          }},
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "\ue5ff {{{{ .Path }}}}",
+          "foreground": "p:main-fg",
+          "background": "p:main-bg",
+          "type": "path"
+        }},
+        {{
+          "properties": {{
+            "branch_icon": "\uf418 ",
+            "branch_max_length": 25,
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "github_icon": "\ue708 "
+          }},
+          "style": "diamond",
+          "leading_diamond": " \ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": " {{{{ .UpstreamIcon }}}}{{{{ .HEAD }}}}{{{{if .BranchStatus }}}} {{{{ .BranchStatus }}}}{{{{ end }}}}{{{{ if .Working.Changed }}}} \uf044 {{{{ .Working.String }}}}{{{{ end }}}}{{{{ if and (.Working.Changed) (.Staging.Changed) }}}} \udb80\udddd{{{{ end }}}}{{{{ if .Staging.Changed }}}} \uf046 {{{{ .Staging.String }}}}{{{{ end }}}}{{{{ if gt .StashCount 0 }}}} \ueb4b {{{{ .StashCount }}}}{{{{ end }}}} ",
+          "foreground": "p:git-fg",
+          "background": "p:main-bg",
+          "type": "git",
+          "foreground_templates": [
+            "{{{{ if or (.Working.Changed) (.Staging.Changed) }}}}p:warning{{{{ end }}}}",
+            "{{{{ if and (gt .Ahead 0) (gt .Behind 0) }}}}p:error{{{{ end }}}}",
+            "{{{{ if gt .Ahead 0 }}}}p:accent{{{{ end }}}}",
+            "{{{{ if gt .Behind 0 }}}}p:accent{{{{ end }}}}"
+          ]
+        }},
+        {{
+          "properties": {{
+            "paused_icon": "\udb81\udf5b ",
+            "playing_icon": "\uf16a  ",
+            "stopped_icon": "\uf28e "
+          }},
+          "style": "diamond",
+          "leading_diamond": " \ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "{{{{ .Icon }}}}{{{{ if ne .Status \"stopped\" }}}}{{{{ .Artist }}}} \udb80\uddd8 {{{{ .Track }}}}{{{{ end }}}}",
+          "foreground": "p:ytm-fg",
+          "background": "p:ytm-bg",
+          "type": "ytm"
+        }},
+        {{
+          "style": "plain",
+          "template": " \uf467 ",
+          "foreground": "p:status-fg",
+          "type": "status"
+        }}
+      ]
+    }},
+    {{
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {{
+          "properties": {{
+            "display_mode": "files",
+            "fetch_package_manager": true,
+            "fetch_version": true,
+            "npm_icon": "\ue71e npm ",
+            "yarn_icon": "\ue6a7 yarn "
+          }},
+          "style": "plain",
+          "template": "{{{{ if .PackageManagerIcon }}}}{{{{ .PackageManagerIcon }}}} {{{{ end }}}}\ue718 {{{{ .Full }}}}",
+          "foreground": "p:node-fg",
+          "type": "node"
+        }},
+        {{
+          "type": "rust",
+          "style": "diamond",
+          "leading_diamond": " \ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "foreground": "p:rust-fg",
+          "background": "p:rust-bg",
+          "template": " \udb85\ude17 {{{{ .Full }}}} "
+        }},
+        {{
+          "properties": {{
+            "display_mode": "files",
+            "fetch_version": true
+          }},
+          "style": "plain",
+          "template": " {{{{ if .Error }}}}{{{{ .Error }}}}{{{{ else }}}}{{{{ .Full }}}}{{{{ end }}}}",
+          "foreground": "p:crystal-fg",
+          "type": "crystal"
+        }},
+        {{
+          "properties": {{
+            "display_mode": "files",
+            "fetch_version": true
+          }},
+          "style": "plain",
+          "template": " {{{{ if .Error }}}}{{{{ .Error }}}}{{{{ else }}}}\ue62d {{{{ .Full }}}}{{{{ end }}}}",
+          "foreground": "p:elixir-fg",
+          "type": "elixir"
+        }},
+        {{
+          "properties": {{
+            "display_mode": "context",
+            "fetch_virtual_env": false
+          }},
+          "style": "plain",
+          "template": " {{{{ if .Error }}}}{{{{ .Error }}}}{{{{ else }}}}\ue73c {{{{ .Full }}}}{{{{ end }}}}",
+          "foreground": "p:python-fg",
+          "type": "python"
+        }}
+      ]
+    }},
+    {{
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {{
+          "style": "plain",
+          "template": "<p:cursor-fg>\udb85\udfa9 </><b>",
+          "foreground": "p:main-fg",
+          "type": "text"
+        }}
+      ],
+      "newline": true
+    }}
+  ],
+  "version": 3,
+  "auto_upgrade": true,
+  "enable_cursor_positioning": true
+}}
