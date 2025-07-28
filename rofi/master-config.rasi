@@ -59,7 +59,7 @@ mainbox {
     enabled:                     true;
     orientation:                 vertical;
     children:                    [ "inputbar", "listbox" ];
-    background-color:            transparent;
+    background-color:            #000000b0;
 }
 
 
