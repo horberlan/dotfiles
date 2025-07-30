@@ -24,6 +24,6 @@ map F12 kitten kitty_grab/grab.py
 
 
 # BEGIN_KITTY_THEME
-# Solarized Dark Higher Contrast
+# Zenburn
 include current-theme.conf
 # END_KITTY_THEME
