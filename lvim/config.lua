@@ -1,8 +1,69 @@
-lvim.colorscheme = "nightfox"
+lvim.colorscheme = "pywal16"
 
-lvim.builtin.lualine.options.theme = "dracula"
+vim.opt.termguicolors = true
+vim.opt.number = true
+vim.opt.tabstop = 2        -- a tab is two spaces
+vim.opt.shiftwidth = 2     -- indentation is two spaces
+vim.opt.expandtab = true   -- no tab char in the files, use spaces
+vim.opt.autoindent = true  -- keep current indentation after pressing <cr>
+vim.opt.smartindent = true -- indent accordingly to the syntax
+vim.opt.smarttab = true    -- indent by shiftwidth spaces when pressing tab
+vim.opt.showmode = false
+vim.o.autoread = true
+vim.o.cmdheight = 0
+
+lvim.builtin.lualine.options.theme = 'pywal16-nvim'
 lvim.transparent_window = false
+
 lvim.plugins = {
+  defaults = {
+    lazy = false,
+    -- version = false, -- commented to prevent error messages at nvim startup
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = { ensure_installed = { "vue", "css" } },
+  },
+  {
+    "elixir-tools/elixir-tools.nvim",
+    version = "*",
+    event = { "BufReadPre", "BufNewFile" },
+    config = function()
+      local elixir = require("elixir")
+      local elixirls = require("elixir.elixirls")
+
+      elixir.setup {
+        nextls = { enable = true },
+        elixirls = {
+          enable = true,
+          settings = elixirls.settings {
+            dialyzerEnabled = false,
+            enableTestLenses = false,
+          },
+          on_attach = function(client, bufnr)
+            vim.keymap.set("n", "<space>fp", ":ElixirFromPipe<cr>", { buffer = true, noremap = true })
+            vim.keymap.set("n", "<space>tp", ":ElixirToPipe<cr>", { buffer = true, noremap = true })
+            vim.keymap.set("v", "<space>em", ":ElixirExpandMacro<cr>", { buffer = true, noremap = true })
+          end,
+        },
+        projectionist = {
+          enable = true
+        }
+      }
+    end,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+  },
+  { "norcalli/nvim-colorizer.lua" },
+  {
+    'uZer/pywal16.nvim',
+    -- for local dev replace with:
+    -- dir = '~/your/path/pywal16.nvim',
+    config = function()
+      vim.cmd.colorscheme("pywal16")
+    end,
+  },
   { "nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate" },
   {
     'LhKipp/nvim-nu',
@@ -19,7 +80,7 @@ lvim.plugins = {
     ---@type pipeline.Config
     opts = {},
   },
-  { 'echasnovski/mini.nvim',           version = '*' },
+  { 'echasnovski/mini.nvim',      version = '*' },
   { "norcalli/nvim-colorizer.lua" },
   { "EdenEast/nightfox.nvim" },
   {
@@ -171,56 +232,39 @@ lvim.plugins = {
   },
 
 }
-
-lvim.builtin.tabnine = { active = true }
-
-lvim.builtin.lualine.options = {
-  icons_enabled = true,
-  theme = 'nightfox',
-  component_separators = { left = '', right = '' },
-  section_separators = { left = '', right = '' },
-  disabled_filetypes = {
-    statusline = {},
-    winbar = {},
-  },
-  ignore_focus = {},
-  always_divide_middle = true,
-  globalstatus = false,
-  refresh = {
-    statusline = 1000,
-    tabline = 1000,
-    -- winbar = 1000,
-  }
-}
+require 'colorizer'.setup()
+-- lvim.builtin.tabnine = { active = true }
 
 local function animal()
-  local selection = { '🐶', '🐼', '🐸', '🦊', '🦁', '🐵', '🐮', '🐷', '🐨', '🗿' }
+  local selection = { '🐶', '🐼', '🐸', '🦊', '🦁', '🐵', '🐮', '🐷', '🐨', '🐔', '🐈', '🦌', '🫎', '🐹', '🦝', '🐊', '🦠' }
   return selection[math.random(#selection)]
 end
+lvim.builtin.lualine.sections.lualine_z = lvim.builtin.lualine.sections.lualine_z or {}
+table.insert(lvim.builtin.lualine.sections.lualine_z, { animal })
 
-lvim.builtin.lualine.sections = {
-  lualine_a = { '', 'mode', 'selectioncount', 'searchcount' },
-  lualine_b = { 'branch', 'diff', 'diagnostics' },
-  lualine_c = { 'filename', 'filesize' },
-  lualine_x = { 'fileformat', 'filetype', 'encoding' },
-  lualine_y = { 'location', 'progress' },
-  lualine_z = { "os.date('%a - %d/%m/%y - %H:%M:%S')", { animal } }
-}
+-- lvim.builtin.lualine.sections = {
+--   lualine_a = { '', 'mode', 'selectioncount', 'searchcount' },
+--   lualine_b = { 'branch', 'diff', 'diagnostics' },
+--   lualine_c = { 'filename', 'filesize' },
+--   lualine_x = { 'fileformat', 'filetype', 'encoding' },
+--   lualine_y = { 'location', 'progress' },
+--   lualine_z = { "os.date('%a - %d/%m/%y - %H:%M:%S')", { animal } }
+-- }
+--
+-- lvim.builtin.lualine.inactive_sections = {
+--   lualine_a = {},
+--   lualine_b = {},
+--   lualine_c = {},
+--   lualine_x = {},
+--   lualine_y = {},
+--   lualine_z = {}
+-- }
+-- require 'colorizer'.setup()
 
-lvim.builtin.lualine.inactive_sections = {
-  lualine_a = {},
-  lualine_b = {},
-  lualine_c = {},
-  lualine_x = {},
-  lualine_y = {},
-  lualine_z = {}
-}
-require 'colorizer'.setup()
-
-require 'colorizer'.setup({
-  css = { rgb_fn = true },
-  'javascript',
-  html = { mode = 'background' },
-}, { mode = 'background' })
+-- require 'colorizer'.setup({
+--   css = { rgb_fn = true },
+--   'javascript',
+--   html = { mode = 'background' },
+-- }, { mode = 'background' })
 
 -- lvim.builtin.nvimtree.setup.open_on_setup_file = true
