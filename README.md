@@ -1,4 +1,4 @@
-## Apparence
+## Appearance
 <img src="https://i.ibb.co/s9yT3yfK/swappy-20250723-132522.png" alt="swappy-20250723-132522" border="0">
 
 ```nushell
