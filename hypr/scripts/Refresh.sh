@@ -23,7 +23,7 @@ for _prs in "${_ps[@]}"; do
 done
 
 # quit ags
-ags -q
+# ags -q
 
 sleep 0.3
 #Restart waybar
@@ -34,7 +34,7 @@ sleep 0.5
 swaync > /dev/null 2>&1 &
 
 # relaunch ags
-ags &
+# ags &
 
 # Relaunching rainbow borders if the script exists
 sleep 1
