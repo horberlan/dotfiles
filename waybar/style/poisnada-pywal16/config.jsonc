@@ -24,11 +24,12 @@
     "bluetooth",
     "backlight",
     "idle_inhibitor",
+    "custom/mpv_cam",
     "wireplumber",
     "battery",
     "clock",
     "custom/local_temperature",
-    "custom/wayves_cat",
+    // "custom/wayves_cat",
     "tray",
     "custom/power-menu"
   ],
@@ -80,6 +81,10 @@
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
     "on-click": "activate"
+  },
+  "custom/mpv_cam": {
+    "format": "\udb82\udd19",
+    "on-click": "mpv --profile=camera /dev/video0"
   },
   "clock": {
     "format": "<span color='#c4c2c2'></span>{:%a %b %d  %R}",
@@ -143,7 +148,7 @@
     }
   },
   "wireplumber": {
-    "format": " {icon}  {volume}% ",
+    "format": "{icon} {volume}%",
     "format-muted": "   Muted",
     "format-icons": [
       "",

@@ -84,10 +84,10 @@ window#waybar.hidden {
   color: @accent;
   background: transparent;
   text-shadow:
-    2px 0 #fff, -2px 0 #fff,
-    0 2px #fff, 0 -2px #fff,
-    1px 1px #fff, -1px -1px #fff,
-    1px -1px #fff, -1px 1px #fff;
+    1px 0 @color5, -1px 0 @color5,
+    0 1px @color5, 0 -1px @color5,
+    1px 1px @color5, -1px -1px @color5,
+    1px -1px @color5, -1px 1px @color5;
 }
 
 #custom-wayves {
@@ -180,6 +180,12 @@ window#waybar.hidden {
   border-radius: 10px;
 }
 
+#custom-mpv_cam {
+  color: @highlight;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  font-size: 1.4rem;
+}
 #tray {
   margin: 5px 0px;
   border-radius: 10px;
