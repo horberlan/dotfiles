@@ -23,6 +23,7 @@ swww query || swww-daemon --format xrgb && swww img -o $focused_monitor ${RANDOM
 
 sleep 1
 ${scriptsDir}/WallustSwww.sh
+pkill -USR1 kitty 2>/dev/null
 sleep 0.5
 ${scriptsDir}/Refresh.sh 
 

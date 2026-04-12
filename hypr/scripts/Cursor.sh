@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hyprctl setcursor "Bibata-Modern-Ice" 18
+hyprctl setcursor "Bibata-Modern-Ice" 24

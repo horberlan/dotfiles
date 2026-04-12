@@ -52,18 +52,14 @@ apply_wallpaper_and_colors() {
     local image="$1"
     swww img -o "$focused_monitor" "$image" $SWWW_PARAMS || exit 1
 
-    source "$HOME/envname/bin/activate"
-    wal -i "$image" --cols16 -n --vte || exit 1
+    "$HOME/envname/bin/wal" -i "$image" --cols16 -n --vte || exit 1
+    pkill -USR1 kitty 2>/dev/null
+    for pid in $(pidof zsh); do
+        cat "$HOME/.cache/wal/sequences" > "/proc/$pid/fd/0" 2>/dev/null
+    done
 
     sh "$HOME/.config/hypr/UserScripts/ReloadXava.sh"
 
-    if pgrep "xava" >/dev/null; then
-        killall xava
-        sleep 1
-    fi
-    xava &>/dev/null &
-
-    eval "$(oh-my-posh init zsh --config "$HOME/.cache/wal/oh-my-posh-pywal.omp.json")"
     apply_colors_to_terminals
 }
 
@@ -98,8 +94,9 @@ main() {
     sleep 1.5
     create_wallpaper_symlink "$image"
 
-    "$SCRIPTSDIR/Refresh.sh" &
-    wait
+    pkill xava
+    "$SCRIPTSDIR/Refresh.sh"
+    sleep 1
+    bash "$HOME/.config/hypr/UserScripts/xava-start.sh" &
 }
-
 main

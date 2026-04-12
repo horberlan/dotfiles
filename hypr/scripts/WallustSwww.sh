@@ -64,9 +64,9 @@ if [ "$ln_success" = true ]; then
     # -s: skip reloading applications
     # -t: skip setting terminal colors (avoids remote control issues)
     # --backend colorz: use colorz backend for better compatibility
-    wal -i "$wallpaper_path" -n -q -s -t --backend colorz 2>/dev/null || {
+    wal -i "$wallpaper_path" -n -q --backend colorz 2>/dev/null || {
         echo "Warning: wal failed with colorz backend, trying with wal backend"
-        wal -i "$wallpaper_path" -n -q -s -t --backend wal 2>/dev/null || {
+        wal -i "$wallpaper_path" -n -q --backend wal 2>/dev/null || {
             echo "Warning: wal failed with wal backend, trying minimal options"
             wal -i "$wallpaper_path" -n -q 2>/dev/null || {
                 echo "Error: All wal execution attempts failed"
@@ -74,7 +74,15 @@ if [ "$ln_success" = true ]; then
             }
         }
     }
-    
+
+    # Reload kitty theme
+    pkill -USR1 kitty 2>/dev/null
+
+    # Reload oh-my-posh in open zsh terminals
+    for pid in $(pidof zsh); do
+        cat "$HOME/.cache/wal/sequences" > "/proc/$pid/fd/0" 2>/dev/null
+    done
+
     echo "WAL execution completed successfully"
 else
     echo "Error: Symlink creation failed, skipping wal execution"
