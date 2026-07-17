@@ -4,9 +4,10 @@ wallDIR="$HOME/Pictures/wallpapers"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
 FPS=60
-TYPE="any"
+TYPE="fade"
 DURATION=1.5
-SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
+BEZIER=".43,1.19,1,.4"
+SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
 
 [[ $(pidof swaybg) ]] && pkill swaybg
 
@@ -18,7 +19,7 @@ rofi_command="rofi -i -show -dmenu -config ~/.config/rofi/config-wallpaper.rasi"
 # Detectar o wallpaper atual antes de abrir o rofi
 cache_file="$HOME/.cache/swww/$focused_monitor"
 if [[ -s "$cache_file" ]]; then
-    current_wallpaper=$(grep -v 'Lanczos3' "$cache_file" | head -n 1)
+    current_wallpaper=$(strings "$cache_file" | grep -v 'Lanczos3' | head -n 1)
     if [[ ! -f "$current_wallpaper" ]]; then
         current_wallpaper="$RANDOM_PIC"
     fi

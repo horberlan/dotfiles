@@ -22,7 +22,7 @@ echo "Cache file: $cache_file"
 # Check if the cache file exists for the current monitor output
 if [ -f "$cache_file" ]; then
     # Get the wallpaper path from the cache file
-    wallpaper_path=$(grep -v 'Lanczos3' "$cache_file" | head -n 1)
+    wallpaper_path=$(strings "$cache_file" | grep -v 'Lanczos3' | head -n 1)
     echo "Wallpaper path: $wallpaper_path"
     
     # Check if wallpaper file actually exists
@@ -64,11 +64,12 @@ if [ "$ln_success" = true ]; then
     # -s: skip reloading applications
     # -t: skip setting terminal colors (avoids remote control issues)
     # --backend colorz: use colorz backend for better compatibility
-    wal -i "$wallpaper_path" -n -q --backend colorz 2>/dev/null || {
+    WAL="$HOME/envname/bin/wal"
+    $WAL -i "$wallpaper_path" -n -q --backend colorz 2>/dev/null || {
         echo "Warning: wal failed with colorz backend, trying with wal backend"
-        wal -i "$wallpaper_path" -n -q --backend wal 2>/dev/null || {
+        $WAL -i "$wallpaper_path" -n -q --backend wal 2>/dev/null || {
             echo "Warning: wal failed with wal backend, trying minimal options"
-            wal -i "$wallpaper_path" -n -q 2>/dev/null || {
+            $WAL -i "$wallpaper_path" -n -q 2>/dev/null || {
                 echo "Error: All wal execution attempts failed"
                 exit 1
             }

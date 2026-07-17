@@ -22,9 +22,10 @@ readonly ITEMS_PER_PAGE=24
 readonly CACHE_DURATION=300
 # Display Configuration
 readonly FPS=60
-readonly TRANSITION_TYPE="any"
+readonly TRANSITION_TYPE="fade"
 readonly DURATION=1.5
-readonly SWWW_PARAMS="--transition-fps $FPS --transition-type $TRANSITION_TYPE --transition-duration $DURATION"
+readonly BEZIER=".43,1.19,1,.4"
+readonly SWWW_PARAMS="--transition-fps $FPS --transition-type $TRANSITION_TYPE --transition-duration $DURATION --transition-bezier $BEZIER"
 readonly ROFI_CONFIG="$HOME/.config/rofi/config-wallpaper-api.rasi"
 # Estado global da aplicação
 declare CURRENT_QUERY=""
